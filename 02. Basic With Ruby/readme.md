@@ -68,9 +68,14 @@
   - ex: `"string".length` here length is a method in object String;
   - Similar things can be done with varibales because they are just pointers to objects;
   - Methods ex: `length`,`upcase`,`downcase`,`next`,`inspect`
- # Return Values & Nil values
+ ## Return Values & Nil values
   - Every Line in ruby returns a value.Even it is as simple as `p "Hii"` it return the string solid it self because we provide nothing to do with it if it was `"hii".length` it will return a brand new object which is integer `3`.Similarly `p 5+2` return the value `7` which is itself a brand `new Object` ;
   - The Return values depend on what method is being called to object.;
   - `puts,p,print` are not any method they are procedure on object which prints output;
   - Nil represent the presence of nothing or emptiness.;
   - Nil is itself a object which represents nothingness.;
+ 
+ ## String Interpolation
+  - `BONUS: .to_s integers converts interger to string`;
+  - `#{variable}` is used between the string to interpolate string.Ex `name = "KSK";puts "Hii,#{name}"` yeilds `Hii,KSK"`;
+  - in Interpolation syntax you can also do something like operating variables.ex: `puts "I spend #{40+90}$ today"` yeilds `I Spend 90$ today`
