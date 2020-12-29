@@ -17,15 +17,32 @@
   - Line break with `\n` symbol which puts and print doesn't afford;
  ## Basic Arithematic
   - `+,-,/,*` are considered as operators;
-  - `5+2` is considered as expression;
+  - An operations like `5+2` is considered as expression;
   - If we add integers arrays or string it will perform the given operation and gives the result;
   - If we divide as integer with integer it will yeild us with a result of integer ignoring the decimal points;
   - To solve it at least one of those numbers should be decimal so we can get `12/5=2.4`;
   - `**` expnential operator,`%` modulo operator;
   - example: `2**3 Gives 2*2*2=8`|`5%2 give remainder i.e 1 or 4%2=0`;
   - `Number should be 0.5 not .5 or -.5`; 
- # Comments
+ ## Comments
   - `#` Used for single line comments aything ahead the hash will be ingore by ruby while being in the same line as hash;
   - `Use #`multiple for multi-line comments;
   - `Use =begin {Comments here} =end` for multi-line comments;
   - For commenting out in Editors select the code you want to comment out and press `ctrl+/`;
+ 
+ ## Variable
+  - Variables are the name to store your data in an sepecific address;
+  - Variable is no an object;
+  - Pointed to object with sign(`=`)
+  - Variable are placeholder for object also known as pointers or identifiers ex: `name = "Kushagra"`;
+  - Variable starts with lowercase letter;
+  - Variable Do not contians { (space)} instead of that we use _ init like `last_name = "Singh karki"`;
+  - Varibles are case sensitive;
+  - Variable is declared as freely without any restriction in Ruby i.e you dont need to declare the type of varible;
+  - Since the right side of `=` is always calulated first the Ruby automatically detects the type of varible you declared;
+  - Boolean `isHighLevel = true`;
+  - String `str = "I am String"`;
+  - Integer `age = 21`;
+  - Used in programme as the name we given to it like `puts name` prints the object name varible pointing to;
+  - The Operation are performed simmilar like we do with data like `5+2` in Varibles it will be `age+1` will be 22 here;
+  - Varibles can be overridden if we declare it again i.e `age = "twenty one"` then `age = 21` then `puts age` will give us 21;
