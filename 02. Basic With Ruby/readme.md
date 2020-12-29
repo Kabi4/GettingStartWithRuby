@@ -51,4 +51,9 @@
   - If you want to assign multiple varibles at same time just declare the varibles on left seprated with commas and equal number of values at right seprated with commas ex `a,b,c = 10,20,30`;
   - If either side of equation the varibles or values are not equal to the each other then the trialing values will be ignore ie `a,b,c=10,20` c will not be assigned any value in `a,b,c=10,20,30,40` 40 will not be assign to any varible;
   - Swapping in ruby done as `val1,val2 = val2,val1` as the right hand side is equated first to the first there values will come and equation will become like `val1,val2 = value2,value1` so the there value will be swapped;
-  
+ ## Constants
+  - As Variable name suggests there values can varies in programme similar constant value represent something that should not and will not be change over the time;
+  - Constants are declared same as varible and use same as varible but declared with Starting with a `Capital Letter`;
+  - ex: `PI = 3.14`;
+  - In ruby its considered as legacy to declare whole name in capital of contant like `NAME = "someone"`;
+  - In ruby reassignment of constant doesn't throw an error but shows a red warning because it is very flexible language;
