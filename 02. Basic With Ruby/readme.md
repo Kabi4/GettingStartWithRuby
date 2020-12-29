@@ -7,3 +7,6 @@
   - PUTS automatically breaks lines into another if not provided if you dont want ot break lines in code use(;) semicolon in the end of line to state that here once intruction has ended;
   - PUTS can also perform string or athermatic operation inside it.Ex: puts 3+2; puts "hii"+"there";
   - If nothing is provided in puts method it prints a line break that is a blank line;
+  - In Every puts statement there will be line break every statement;
+ ## PRINT
+  - PRINT is very similar to puts it just do not break line at end of every command;
