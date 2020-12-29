@@ -1,0 +1,1 @@
+puts "Hello,Kushagra Singh Karki" #Puts Method is used for priting anything to you console.
