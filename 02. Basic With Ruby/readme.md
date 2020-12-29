@@ -65,6 +65,12 @@
   - Objects have properties and methods;
   - ex: lapi have screen as propety and browsing as method or funtionallty;
   - We call the properties and methods in object with a `.`;
-  - ex: "string".length here length is a method in object String;
+  - ex: `"string".length` here length is a method in object String;
   - Similar things can be done with varibales because they are just pointers to objects;
   - Methods ex: `length`,`upcase`,`downcase`,`next`,`inspect`
+ # Return Values & Nil values
+  - Every Line in ruby returns a value.Even it is as simple as `p "Hii"` it return the string solid it self because we provide nothing to do with it if it was `"hii".length` it will return a brand new object which is integer `3`.Similarly `p 5+2` return the value `7` which is itself a brand `new Object` ;
+  - The Return values depend on what method is being called to object.;
+  - `puts,p,print` are not any method they are procedure on object which prints output;
+  - Nil represent the presence of nothing or emptiness.;
+  - Nil is itself a object which represents nothingness.;
