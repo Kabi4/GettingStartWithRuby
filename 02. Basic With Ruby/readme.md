@@ -46,3 +46,9 @@
   - Used in programme as the name we given to it like `puts name` prints the object name varible pointing to;
   - The Operation are performed simmilar like we do with data like `5+2` in Varibles it will be `age+1` will be 22 here;
   - Varibles can be overridden if we declare it again i.e `age = "twenty one"` then `age = 21` then `puts age` will give us 21;
+  ### Parallel Varible Assignment
+  - If you want to print 2 3 4 varibles same time use comma to sperately print them like for varibales `a,b,c` `puts a,b,c`;
+  - If you want to assign multiple varibles at same time just declare the varibles on left seprated with commas and equal number of values at right seprated with commas ex `a,b,c = 10,20,30`;
+  - If either side of equation the varibles or values are not equal to the each other then the trialing values will be ignore ie `a,b,c=10,20` c will not be assigned any value in `a,b,c=10,20,30,40` 40 will not be assign to any varible;
+  - Swapping in ruby done as `val1,val2 = val2,val1` as the right hand side is equated first to the first there values will come and equation will become like `val1,val2 = value2,value1` so the there value will be swapped;
+  
