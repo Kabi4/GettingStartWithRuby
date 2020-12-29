@@ -57,3 +57,14 @@
   - ex: `PI = 3.14`;
   - In ruby its considered as legacy to declare whole name in capital of contant like `NAME = "someone"`;
   - In ruby reassignment of constant doesn't throw an error but shows a red warning because it is very flexible language;
+
+ ## Starting with Objects
+  - Everything in Ruby is Objects;
+  - Object is an data structure in Ruby;
+  - Objects have exclusive and shared method;
+  - Objects have properties and methods;
+  - ex: lapi have screen as propety and browsing as method or funtionallty;
+  - We call the properties and methods in object with a `.`;
+  - ex: "string".length here length is a method in object String;
+  - Similar things can be done with varibales because they are just pointers to objects;
+  - Methods ex: `length`,`upcase`,`downcase`,`next`,`inspect`
