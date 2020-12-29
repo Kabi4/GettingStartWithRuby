@@ -78,4 +78,10 @@
  ## String Interpolation
   - `BONUS: .to_s integers converts interger to string`;
   - `#{variable}` is used between the string to interpolate string.Ex `name = "KSK";puts "Hii,#{name}"` yeilds `Hii,KSK"`;
-  - in Interpolation syntax you can also do something like operating variables.ex: `puts "I spend #{40+90}$ today"` yeilds `I Spend 90$ today`
+  - in Interpolation syntax you can also do something like operating variables.ex: `puts "I spend #{40+90}$ today"` yeilds `I Spend 90$ today`;
+ ## GETS AND CHOMP METHOD
+  - `gets` method accpets the Input from user.;
+  - `chomp` used to remove the `\n` characterat the end of every gets results.;
+  - Used as `gets.chomp` this is also known as method chaining first the gets method is gonna run then on the result object the chomp method is used.;
+  - gets result can be stored in the varible as for future use.;
+  - `BONUS: .to_i converts the string to integer if it can.`;
