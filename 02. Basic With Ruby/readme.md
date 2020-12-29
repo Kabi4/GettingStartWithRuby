@@ -14,4 +14,13 @@
   - P Show us the output more programmatically rather than visually;
   - P Show string with quotes;
   - Integer in there simple formats;
-  - Line break with `\n` symbol which puts and print doesn't afford; 
+  - Line break with `\n` symbol which puts and print doesn't afford;
+ ## Basic Arithematic
+  - `+,-,/,*` are considered as operators;
+  - `5+2` is considered as expression;
+  - If we add integers arrays or string it will perform the given operation and gives the result;
+  - If we divide as integer with integer it will yeild us with a result of integer ignoring the decimal points;
+  - To solve it at least one of those numbers should be decimal so we can get `12/5=2.4`;
+  - `**` expnential operator,`%` modulo operator;
+  - example: `2**3 Gives 2*2*2=8`|`5%2 give remainder i.e 1 or 4%2=0`;
+  - `Number should be 0.5 not .5 or -.5`; 
