@@ -10,3 +10,8 @@
   - In Every puts statement there will be line break every statement;
  ## PRINT
   - PRINT is very similar to puts it just do not break line at end of every command;
+ ## P
+  - P Show us the output more programmatically rather than visually;
+  - P Show string with quotes;
+  - Integer in there simple formats;
+  - Line break with `\n` symbol which puts and print doesn't afford; 
