@@ -24,3 +24,8 @@
   - `**` expnential operator,`%` modulo operator;
   - example: `2**3 Gives 2*2*2=8`|`5%2 give remainder i.e 1 or 4%2=0`;
   - `Number should be 0.5 not .5 or -.5`; 
+ # Comments
+  - `#` Used for single line comments aything ahead the hash will be ingore by ruby while being in the same line as hash;
+  - `Use #`multiple for multi-line comments;
+  - `Use =begin {Comments here} =end` for multi-line comments;
+  - For commenting out in Editors select the code you want to comment out and press `ctrl+/`;
