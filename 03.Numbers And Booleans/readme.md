@@ -15,3 +15,11 @@
   - `.to_i` method is also available in the floats to convert it into a integer.`Ruby just chomp the decimal digits it do not round them off.`
   - `.to_s` method converts a float or interger into a string.
   - All these conversion methods are also available in their own data type ex `.to_s` in a "string" it just return the same value when called. 
+ 
+ ## Booleans
+  - A Boolean can have only two values `true` or `false`.
+  - It tell us if a condition or thing is true or not.
+  - Both Booleans have their own classes `true have a class of TrueBoolean` and `false have a class of FalseBoolean`.
+  - You can assign booleans to a variable `amBoy = true`.
+  - `amBoy.class` yeilds `TrueBoolean`.
+  - When a condition is checked it returns the value in Boolean like in real life are you a boy if yes u will say true and if not u will say false. similarly in Programming `result = 5<10` gives `true` where as `10<5` yeilds `false`.
