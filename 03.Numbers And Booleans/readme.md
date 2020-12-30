@@ -104,4 +104,13 @@
   - It is declared inside and at just starting of block ex: `10.times{|count| puts count}`.
   - `Block Variable` starts form 0 to the num value-1.ex: `The above iteration will go as 0 1 2 3 4 5 6 7 8 9`.
   - They only exists until the block is been exceute once block code finishes the variable vaninsh thus we cannot use it after that.
-  - Ex: `10.times do |i|  \n puts "I am at #{i+1}"\n end`
+  - Ex: `10.times do |i|  \n puts "I am at #{i+1}"\n end`.
+ 
+ ## Upto and Downto Methods
+  - `.downto(parameters){block}` & `.upto(parameters){block}`.
+  - They accepts an parameters and a block to be executed.
+  - These methods are only available at Integers.
+  - These means that the block is going to exceute from Interger to the value of parameter.
+  - Ex: `5.downto(1){|i| puts i}` will print `5 4 3 2 1`.
+  - Ex: `5.upto(10){|i| puts i}` will print `5 6 7 8 9 10`.
+  - As you can see block variable has the value of Interger to the parameter not from 0 to times.
