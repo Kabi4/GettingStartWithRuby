@@ -59,3 +59,15 @@
   - It can also be used with equals operator.
   - `12<=12` yields true.
   - `12>=12` alse yeilds true.
+
+ ## Arthematic Methods
+  - Methods can be called with paranthesis in ruby like .next() although it is not neccesaary.
+  - With `( )` the method accepts the parameters. Parameters are just values or varibles or object which we want to use inside the methods and want to pass a sepecific value in a methods to use it like compraing with something add to something or something else.
+  - Arthematic Methods usually do not have a name instead they instead have a `Symbol`.like `1.+(2)` yeilds `3`.Here `.+()` is method called with paranthesis and parameters of 2.
+  - Substract Method `.-(param)`.
+  - Additional Method `.+(param)`.
+  - Multiple Method `.*(param)`.
+  - Divison Method `./(param)` or `.div(param)`.
+  - Modulos Method `.%(param)` or `.modulo(param)`.
+  - `P.S : `Although the paranthesis are not so important in Ruby `5.- 5` will be same as `5 - 5` or `5.-(5)`.
+  - `Though you never gonna use these methods in you furture because other syntax is quite simpler than these but they gives us idea how Ruby is structured like a Object Oriented Language.`
