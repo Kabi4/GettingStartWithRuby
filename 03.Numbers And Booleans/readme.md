@@ -49,3 +49,13 @@
   - It can also be used on variables.Ex: `a,b,c = 1,2,1` `p a!=b` yeilds `true` `p a!=c`yeilds `false`.It compares the object variable points to.
   - It can also compare the different data types but mostly yeilds `true` if the object are not converted to same types.
   - It is just opposite of Comparison Operator gives false if values are equal.
+
+ ## Less than and Greater than Operator
+  - They are also a Boolean operator which returns `true` or `false`.
+  - Less than `<` | Greater than `>`.
+  - `12<10` yields false.
+  - `12>10` yeilds true.
+  - `12<12` yeilds false.
+  - It can also be used with equals operator.
+  - `12<=12` yields true.
+  - `12>=12` alse yeilds true.
