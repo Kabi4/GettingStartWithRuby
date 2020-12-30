@@ -92,3 +92,16 @@
   - Assignment Operator is assigning value to the variables.ex: `a=10`.
   - Reassigment  of operator can be `a=12`.
   - If you want to use the old value in the assignment you can do as ex: `a = a+10`.Shorthand and more preferred way of doing that is `a+=10`.Which will make the a poiting to object `20`.or `a*=2`, `a-=10`, `a/=5`, `a**=2`, `a%=10` .
+
+ ## Block and times method
+  - Everything in Ruby is object except for Block.
+  - Block is add-on to a object or you can fairly say its an detial of method how its gonna exceute again it's not a method too.
+  - Fixnums have a method called `.times`.Which means to do a process number of times.Ex `5.times` means to do a process 5 number of times.
+  - After the times we describes our block either in `Curly Braces {}` or `in a (do end) block`.
+  - What comes in the block gonna exceute the number of times the Fixnum value.ex `10.times { puts "I am Awesome!" }` its gonna print "I am Awesome!" 10 times.
+  - OR `10.times do  \n puts "Ruby is fun to learn!"\n end` 
+  - `Block Variable` is optional variable that you can use and define if you want to by defining its name between to pipelines  `| variable |`.Variable name can be anything until not an predefined value in ruby.
+  - It is declared inside and at just starting of block ex: `10.times{|count| puts count}`.
+  - `Block Variable` starts form 0 to the num value-1.ex: `The above iteration will go as 0 1 2 3 4 5 6 7 8 9`.
+  - They only exists until the block is been exceute once block code finishes the variable vaninsh thus we cannot use it after that.
+  - Ex: `10.times do |i|  \n puts "I am at #{i+1}"\n end`
