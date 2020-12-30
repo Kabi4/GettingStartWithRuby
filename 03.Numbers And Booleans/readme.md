@@ -114,3 +114,11 @@
   - Ex: `5.downto(1){|i| puts i}` will print `5 4 3 2 1`.
   - Ex: `5.upto(10){|i| puts i}` will print `5 6 7 8 9 10`.
   - As you can see block variable has the value of Interger to the parameter not from 0 to times.
+ 
+ ## Steps Methods
+  - It also takes an Block and parameters.
+  - `.step(uptovalue,stepvalue){block}`.
+  - This means goto uptovalue from the integer value with each times with skip value of stepvalue.
+  - This only available in Fixnums.
+  - Ex: `3.step(100,7){|i| puts i}` will give `3 10 17 24 31 38 45 52 59 66 73 80 87 94`.
+  
