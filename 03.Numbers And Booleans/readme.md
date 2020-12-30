@@ -23,3 +23,11 @@
   - You can assign booleans to a variable `amBoy = true`.
   - `amBoy.class` yeilds `TrueBoolean`.
   - When a condition is checked it returns the value in Boolean like in real life are you a boy if yes u will say true and if not u will say false. similarly in Programming `result = 5<10` gives `true` where as `10<5` yeilds `false`.
+ 
+ ## odd and even Methods
+  - `.odd?` & `.even?`.
+  - They are known as Boolean methods. Cause they return a boolean when called either `true ` or `false`.
+  - they are available on Integers only.
+  - Ruby designed their all Boolean methods name ending with `?` so just to tell that these methods returns a Boolean.
+  - ex: `10.odd?` yeilds `false` whereas `10.even?` yeilds `true`.
+  - float class don't have the odd and even methods so not any Float have this method.
