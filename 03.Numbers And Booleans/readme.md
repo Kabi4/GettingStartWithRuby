@@ -36,9 +36,16 @@
   - It is an Boolean operator which returns `true` or `false`.
   - Represented with `==`.
   - The Comparison operator are used to compare two values if they are equals it returns true otherwise false.
-  - ex: Is 5 is equal to 6 gives us false in machine language it is `5 == 6` yields `false`.
+  - ex: Is 5 is equal to 6 gives us false, in machine language it is `5 == 6` yields `false`.
   - It can also be used on variables.Ex: `a,b,c = 1,2,1` `p a==b` yeilds `false` `p a==c`yeilds `true`.It compares the object variable points to.
-  - It can also compare the different data types but mostly yeilds `false` if the object are on converted to same types.
+  - It can also compare the different data types but mostly yeilds `false` if the object are not converted to same types.
   - `Be careful with Exception and always try to compare same data type`: When comparing number Ruby consider them same one with decimal and one without it so, `5==5.0` yeilds `true`. whereas `5.class==5.0.class` yeilds `false`.
 
- ## 
+ ## Inequality Operator
+  - It is an Boolean operator which returns `true` or `false`.
+  - Represented with `!=`.
+  - The Comparison operator are used to compare two values if they are not equals it returns true otherwise false.
+  - ex: Is 5 is equal to 6 gives us true, in machine language it is `5 != 6` yields `true`.
+  - It can also be used on variables.Ex: `a,b,c = 1,2,1` `p a!=b` yeilds `true` `p a!=c`yeilds `false`.It compares the object variable points to.
+  - It can also compare the different data types but mostly yeilds `true` if the object are not converted to same types.
+  - It is just opposite of Comparison Operator gives false if values are equal.
