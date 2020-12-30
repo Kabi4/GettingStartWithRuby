@@ -71,3 +71,19 @@
   - Modulos Method `.%(param)` or `.modulo(param)`.
   - `P.S : `Although the paranthesis are not so important in Ruby `5.- 5` will be same as `5 - 5` or `5.-(5)`.
   - `Though you never gonna use these methods in you furture because other syntax is quite simpler than these but they gives us idea how Ruby is structured like a Object Oriented Language.`
+
+ ## Object Methods and between method
+  - Methods can accpet one or more than one parameters.
+  - Parameters are also known as arguments.
+  - Arguments is technical name where as parameters are code representation of showing that we passed arguments in this function.
+  - ex: `.between?(firstnumber,secondNumber)` between method is presennt in numbers which accepts two arguments lowerbound and upperbound which returns a boolean if the number is between the arguments it returns true otherwise false.`2.between?(1,3)` gives `true`.`4.between?(1,3)` gives `false`.
+
+ ## Float Methods
+  - `.to_i` converts float to integer just by chomping the decimals not rounding them.
+  - `.floor` converts the number to nearest integer which is less than the number.`5.4.floor` gives `5`.
+  - `.ceil` converts the number to nearest integer which is less than the number.`5.4.ceil` gives `6`.
+  - `.round` rounds the number.`5.4.round` gives `5`.`5.6.round` gives `6`.
+    -- `.round` also accpets an input but without input it do the rounding as of gernal maths.
+    -- Input is must be can integer with input it gives back the rounded value precise up to integers of digits.
+    -- `.round(3)` gives result in formal `xx.xxx` see upto 3 digits.
+  - `.abs` convert every number to its positive number only.ex `-4.5.abs` gives `4.5`. `4.5.abs` gives `4.5`.Similarly with intergers.  
