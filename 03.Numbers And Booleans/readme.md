@@ -82,8 +82,13 @@
   - `.to_i` converts float to integer just by chomping the decimals not rounding them.
   - `.floor` converts the number to nearest integer which is less than the number.`5.4.floor` gives `5`.
   - `.ceil` converts the number to nearest integer which is less than the number.`5.4.ceil` gives `6`.
-  - `.round` rounds the number.`5.4.round` gives `5`.`5.6.round` gives `6`.
+  - `.round` rounds the number.`5.4.round` gives `5`.`5.6.round` gives `6`.  
     -- `.round` also accpets an input but without input it do the rounding as of gernal maths.  
     -- Input is must be can integer with input it gives back the rounded value precise up to integers of digits.  
     -- `.round(3)` gives result in formal `xx.xxx` see upto 3 digits.  
   - `.abs` convert every number to its positive number only.ex `-4.5.abs` gives `4.5`. `4.5.abs` gives `4.5`.Similarly with intergers.  
+
+ ## Assignment Operator
+  - Assignment Operator is assigning value to the variables.ex: `a=10`.
+  - Reassigment  of operator can be `a=12`.
+  - If you want to use the old value in the assignment you can do as ex: `a = a+10`.Shorthand and more preferred way of doing that is `a+=10`.Which will make the a poiting to object `20`.or `a*=2`, `a-=10`, `a/=5`, `a**=2`, `a%=10` .
