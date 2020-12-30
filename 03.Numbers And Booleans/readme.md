@@ -1,5 +1,5 @@
 # Introduction to Data Types Numbers and Booleans
- ## Integer,Floats and there class and `.class` method
+ ## Integer,Floats and their class and `.class` method
   - The simple whole Numbers without decimals are called integers.
   - The decimals numbers are called Floats.
   - Every same data type come from the same blue print called `class`.Class is the blueprint to build object that's why every Integers share the same properties and method though they are different in values.
@@ -31,3 +31,14 @@
   - Ruby designed their all Boolean methods name ending with `?` so just to tell that these methods returns a Boolean.
   - ex: `10.odd?` yeilds `false` whereas `10.even?` yeilds `true`.
   - float class don't have the odd and even methods so not any Float have this method.
+
+ ## Comparison Operator
+  - It is an Boolean operator which returns `true` or `false`.
+  - Represented with `==`.
+  - The Comparison operator are used to compare two values if they are equals it returns true otherwise false.
+  - ex: Is 5 is equal to 6 gives us false in machine language it is `5 == 6` yields `false`.
+  - It can also be used on variables.Ex: `a,b,c = 1,2,1` `p a==b` yeilds `false` `p a==c`yeilds `true`.It compares the object variable points to.
+  - It can also compare the different data types but mostly yeilds `false` if the object are on converted to same types.
+  - `Be careful with Exception and always try to compare same data type`: When comparing number Ruby consider them same one with decimal and one without it so, `5==5.0` yeilds `true`. whereas `5.class==5.0.class` yeilds `false`.
+
+ ## 
