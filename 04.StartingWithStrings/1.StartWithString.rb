@@ -1,6 +1,6 @@
 puts "This is a string"
 
-puts "String can consist of any characters @ #$@!($@!%*(#&(!@)(@!*#(%>?{}" ' '""
+puts "String can consist of any characters @ #$@!($@!%*(#&(!@)(@!*#(%>?{} ' '"
 
 puts "empty string can also be possible"
 
@@ -21,6 +21,6 @@ puts space.class
 puts life.class
 
 #New way to create string with class
-const newString = String.new("Whatever the hell you want to make string!")
+newString = String.new("Whatever the hell you want to make string!")
 
 p newString
