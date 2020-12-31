@@ -40,4 +40,10 @@
   - `<<` Shovel operator.Ex: `"harry" << " potter" << " wizard"`.
   - Concat overwrite the firststring if it exists in a Variable.
   - `.prepend` is similar to concat but add the parameter string at starting of string which called the method.It also overrides the variable.
-  - Ex: `"harry".concat(" potter")` gives ` potterharry`
+  - Ex: `"harry".concat(" potter")` gives ` potterharry`.
+
+ ## Length and Size Methods
+  - `.length` gives the length that is the number of character in a string.
+  - `"hii".length` gives the `3`. `"".length` gives the `0`.`" ".length` gives the "1".
+  - `.size` is same method as length you can call it a duplicate method.
+  - These method return a new object that is a `Fixnum` class method.
