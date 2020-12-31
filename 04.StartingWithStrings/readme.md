@@ -93,3 +93,15 @@
   - Without bang method the methods return the new object do not mutate the orignal object.
   - but bang versions to those methods mutate the orignal object.rest they work same.and just ends with `!`.
   - `.upcase!`,`.capitalize!`,`.downcase!`,`.reverse!`
+
+ ## Include method
+  - It's a boolean method so it ends with `?` like other.
+  - It check that if the a word is presennt in the given string.
+  - `.include(word)` word is a parameter.
+  - This method is case sensitive.
+  - You can search for character and words both.
+  - Ex:`"snow white".include?("snow")` gives `true`.
+  - Ex:`"snow white".include?("Snow")` gives `false`.
+  - As the method is case sensitive but if want to ignore the case we first normalize the string either convert it into a lower case for the check or into a uppercase and the words too.
+  - Ex:`"snow white".upcase.include?("Snow".upcase)` gives `true`.
+  - Returns a new object Boolean
