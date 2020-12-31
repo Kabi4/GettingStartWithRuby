@@ -24,3 +24,12 @@
  ## Double Quotes Vs Single Quotes
   - Escape charaters do not work with single quotes.
   - String literals also not work with single quotes.
+
+ ## Equality and Inequality Operator with Strings
+  - The strings are case sensitive that is 'hello' and 'Hello' are totaly different.
+  - Also character sensitive ie "hello" is not equal to " Hello".
+  - We can also user `<` and `>` operators with strings.
+  - With using comparison it goes with alphabaltic order. `A<a` will yields `true`.
+  - While comparing the capital and lower case are also considered into considered.
+  - Ex: `"help"<"banana"`= true , `"Help"<"banana"` = false.
+  
