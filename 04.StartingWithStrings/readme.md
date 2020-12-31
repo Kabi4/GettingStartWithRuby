@@ -63,3 +63,9 @@
   -Ex: `hello[1,3]` gives `ell`.
   -You can also provide index from end using negative index.
   -EX: `hello[-4,3]` gives `ell`.
+ 
+ ## Extracting With Rangeobject
+  - Syntax: `[startingPosition..endPosition]` or `[startingPosition...endPosition]`.Its similarly also used in the slice method.
+  -Differnce between `..` and `...` is that in two dot the lastposition element is taken into account where as in three dot it is exlcuded.
+  -Ex: `"programmmer"[1..4]` gives `rogr`. `"programmmer".slice(1...4)` gives `rog`.
+  -If the endposition is much grater than the string length it give string upto end then ignore it.
