@@ -20,3 +20,7 @@
   - ex: `"The message was \"Goodbye\""` or `'\'Romeo\' and \'Juliet\'`.
   - Blackslash with n use to cause linebreaks: ex `"Let's do a line break\nDone right!"`.
   - Blackslash with t use to cause a 4 character gap: ex `"Let's do a line gap\tDone right!"`.
+
+ ## Double Quotes Vs Single Quotes
+  - Escape charaters do not work with single quotes.
+  - String literals also not work with single quotes.
