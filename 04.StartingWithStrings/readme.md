@@ -57,3 +57,9 @@
   - We can also provide negative numbers but they start are counting from end from -1 -2 and so on.
   - If the number is out of range from string it will return `nill`.
   - `.slice(index)` is also used for extracting the character and works same as `[]`.Index is the position of the character you want to extract.
+ 
+ ## Extracting Multiple Characters
+  - When we provide `[]`,`.slice()` two inputs then we get multiple characters.Starting from index that is First input and next number character given in second input.
+  -Ex: `hello[1,3]` gives `ell`.
+  -You can also provide index from end using negative index.
+  -EX: `hello[-4,3]` gives `ell`.
