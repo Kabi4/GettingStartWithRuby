@@ -69,3 +69,9 @@
   -Differnce between `..` and `...` is that in two dot the lastposition element is taken into account where as in three dot it is exlcuded.
   -Ex: `"programmmer"[1..4]` gives `rogr`. `"programmmer".slice(1...4)` gives `rog`.
   -If the endposition is much grater than the string length it give string upto end then ignore it.
+
+ ## Overwrite Characters
+  - String is mutable in Ruby.
+  - `[]` is to mutate the Characters of string `=` is used then the right hand size we use the character we want to place.
+  - To mutate multiple characters use the Above method and replace with new characters at right hand side.
+  - Ex: `See 11.OverwriteCharacter.rb file in this folder.`
