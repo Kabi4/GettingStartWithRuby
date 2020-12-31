@@ -32,4 +32,12 @@
   - With using comparison it goes with alphabaltic order. `A<a` will yields `true`.
   - While comparing the capital and lower case are also considered into considered.
   - Ex: `"help"<"banana"`= true , `"Help"<"banana"` = false.
-  
+
+ ## Concanate strings
+  - Simplest way to concate is `+` operator.Ex: `"harry"+" potter"`.
+  - Another method is `.concat(argv)`.It join the string in argument with the string the methods calls upon.
+  - Ex: `"harry".concat(" potter")`.
+  - `<<` Shovel operator.Ex: `"harry" << " potter" << " wizard"`.
+  - Concat overwrite the firststring if it exists in a Variable.
+  - `.prepend` is similar to concat but add the parameter string at starting of string which called the method.It also overrides the variable.
+  - Ex: `"harry".concat(" potter")` gives ` potterharry`
