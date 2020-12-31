@@ -47,3 +47,13 @@
   - `"hii".length` gives the `3`. `"".length` gives the `0`.`" ".length` gives the "1".
   - `.size` is same method as length you can call it a duplicate method.
   - These method return a new object that is a `Fixnum` class method.
+
+ ## Mutating String'a Characters
+  - In ruby the character in a string is mutable.
+  - Every Character receives its own position in the string.Starts with 0 and further on.
+  - Ex: `First` `F have position 0` `i have position 1` and so on.
+  - For extracting the the we use `[number]`.
+  - Ex: `"First"[2]` gives `r`.
+  - We can also provide negative numbers but they start are counting from end from -1 -2 and so on.
+  - If the number is out of range from string it will return `nill`.
+  - `.slice(index)` is also used for extracting the character and works same as `[]`.Index is the position of the character you want to extract.
