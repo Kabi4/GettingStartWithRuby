@@ -18,4 +18,5 @@
   - But what to do when you want to use both double and single quotes. Then come to rescue escape character.
   - For escape character to tell ruby that this character is a escape character in the string you should print it we use blackslash.
   - ex: `"The message was \"Goodbye\""` or `'\'Romeo\' and \'Juliet\'`.
-  - Blackslash with n use to cause linebreaks: ex `"Let's do a line break\nDone right!"`
+  - Blackslash with n use to cause linebreaks: ex `"Let's do a line break\nDone right!"`.
+  - Blackslash with t use to cause a 4 character gap: ex `"Let's do a line gap\tDone right!"`.
