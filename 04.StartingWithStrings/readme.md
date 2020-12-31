@@ -81,7 +81,15 @@
   - `.upcase` it capitalize every character in the string.`"heLLo".capitalize` gives `"HELLO"`.
   - `.downcase` it lowercase every character in the string.`"heLLo".capitalize` gives `"hello"`.
   - `.swapcase` it swap the case of every character in the string.`"heLLo".swapcase` gives`HEllO`.
+  - They all returns new Object.
  
  ## Reverse Method
   - `.reverse` method reverse the string in the same case and symbols.Returns brand new string object can also perform method chaining.
   - `"#%421RuBy. . ".reverse` yields ` . .yBuR124%#`.
+ 
+ ## Bang Methods!
+  - Bang methods! are special methods in Ruby which mutates and modify the orignal object. That's why it has also a side effect.
+  - It conclude with `!`.
+  - Without bang method the methods return the new object do not mutate the orignal object.
+  - but bang versions to those methods mutate the orignal object.rest they work same.and just ends with `!`.
+  - `.upcase!`,`.capitalize!`,`.downcase!`,`.reverse!`
