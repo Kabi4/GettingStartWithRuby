@@ -81,3 +81,7 @@
   - `.upcase` it capitalize every character in the string.`"heLLo".capitalize` gives `"HELLO"`.
   - `.downcase` it lowercase every character in the string.`"heLLo".capitalize` gives `"hello"`.
   - `.swapcase` it swap the case of every character in the string.`"heLLo".swapcase` gives`HEllO`.
+ 
+ ## Reverse Method
+  - `.reverse` method reverse the string in the same case and symbols.Returns brand new string object can also perform method chaining.
+  - `"#%421RuBy. . ".reverse` yields ` . .yBuR124%#`.
