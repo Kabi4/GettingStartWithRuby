@@ -105,3 +105,8 @@
   - As the method is case sensitive but if want to ignore the case we first normalize the string either convert it into a lower case for the check or into a uppercase and the words too.
   - Ex:`"snow white".upcase.include?("Snow".upcase)` gives `true`.
   - Returns a new object Boolean
+
+ ## Empty and Nil method
+  - They are boolean methods.
+  - `.empty?` gives `true` whenever the string is empty otherwise `false`.It is Just an shorthand so we not need to call the length method and check with 0.Ex: `p "".empty? #true`
+  - `.nil?` gives `true` whenever the string is `nil` otherwise `false`.Even a empty string is not nil.If referr to situation when u got a nil object or you want to check whether u are getting a nil string from there.we can face error like this if we think humanly to get string index start from zero
