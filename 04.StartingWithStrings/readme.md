@@ -75,3 +75,9 @@
   - `[]` is to mutate the Characters of string `=` is used then the right hand size we use the character we want to place.
   - To mutate multiple characters use the Above method and replace with new characters at right hand side.
   - Ex: `See 11.OverwriteCharacter.rb file in this folder.`
+
+ ## Case Methods
+  - `.capitalize` it capitalize only the first character in the string and lowercase string other characters.`"heLLo".capitalize` gives `"Hello"`.
+  - `.upcase` it capitalize every character in the string.`"heLLo".capitalize` gives `"HELLO"`.
+  - `.downcase` it lowercase every character in the string.`"heLLo".capitalize` gives `"hello"`.
+  - `.swapcase` it swap the case of every character in the string.`"heLLo".swapcase` gives`HEllO`.
