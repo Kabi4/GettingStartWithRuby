@@ -69,3 +69,9 @@
   -Ex: `if age>21 && salary<40000 && gender=="M"`.The code will only execute only when all the three conditions are true.
   - For any of the conditions to be true among all means if any is true the statement will execute and will do its work.we use `||` operator known as OR operator.
   -Ex: `if age>21 && salary<40000 && gender=="F"`.The code will execute if any of one condition is true.
+
+ ## Paranthesis for combining two expressions
+  - When you want to combining two statements like either user and password matched both toghter or authtoken match with token so we gonna login user.
+  - So we wrapped user and password expressions togehter and auth with that expression with an or sign.
+  - Ex: `if (user = "kushagra" && password="meme") || token="auth"`.
+  - Whatever comes in paranthesis Ruby will compare them togehter.
