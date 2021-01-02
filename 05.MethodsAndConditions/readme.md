@@ -48,4 +48,8 @@
   - Except `false` and `nil`.Known as falsiness.
   - If a object existed and have value is true have Truthiness.
 
- 
+ ## If elsif Statement
+  - It is also a conditional statement.
+  - If only checks one condition if we want to check multiple conditions.Till now we have to put if statements multiple times.That may be no problem to you but what if we want to print "find" if the line contains "red" and if it contains "red" and "blue" we need to print "excellent".but if two if block in continous it will check for 'red' print "find" then if it also contains 'blue' will print 'excellent'.but you only want to print "excellent".
+  - In this statement the other condition is checked only when first one is false.That mean solution to above problem is if there is no red and blue in line then only check for red in line.
+  - For example refer to `8.ifelsif.rb`.
