@@ -23,3 +23,11 @@
   - Other way around is to after calling the method wrapp all the arguments inside the paranthesis.Ex: `method(value1,value2)`.
   - The arguments are consumed inside a method only with the same name that were accpeted.Ex: here `argv1,argv2`.
   - If the argument are not equal to the number of arguments provided by user or method consumer call it will throw an error.
+
+ ## Return values
+  - As using previous method already attached in the Varibles.They all return a value.Thus these method are no different every thing in ruby returns a value.
+  - Once return it exceuted in Ruby the futher code will not be executed because the function has been close it has returned the value it was executed to return.
+  - `return value` is used inside the method to return a final value.
+  - If return is declared it is known as Explict Return.
+  - If no return is declared it is known as implict Return.PS: Sorry for the spellings.
+  - If no return is declared Ruby will return the last operation excueted
