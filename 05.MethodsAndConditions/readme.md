@@ -15,3 +15,11 @@
   - Local Varibles belong to a particular method and inside the method it only existed as long as method is excecating it don't exists outside the method.
   - Each times you exceute the method Ruby will assign those local variables each time in your computer.
   - Ex: `def helloWorld \n a="Hii Ruby is awesome"\n end`.In this the a existed only inside the method and can only be used inside the method.You can assign the varible outside the method they will not collide.
+
+ ## Arguments
+  - The Arugments are accepted into a method wrapped in `()` after the name of the method.Seprated by `,`.Ex: `def method(argv1,argv2)`.
+  - The arguments are accepted in two ways. 
+  - First way is to after calling the method followed by a space and seprated by a `,`.Ex: `method value1 value2`.
+  - Other way around is to after calling the method wrapp all the arguments inside the paranthesis.Ex: `method(value1,value2)`.
+  - The arguments are consumed inside a method only with the same name that were accpeted.Ex: here `argv1,argv2`.
+  - If the argument are not equal to the number of arguments provided by user or method consumer call it will throw an error.
