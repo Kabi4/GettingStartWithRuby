@@ -42,3 +42,10 @@
   - If statements can also have their own local variables.
   - If the statement is true then the code inside the if block will get exceuted.
   - If not then the code will be ignored.
+ 
+ ## Truthiness and falsiness.
+  - Everything in ruby is true.
+  - Except `false` and `nil`.Known as falsiness.
+  - If a object existed and have value is true have Truthiness.
+
+ 
