@@ -32,4 +32,13 @@
   - If no return is declared it is known as implict Return.PS: Sorry for the spellings.
   - If no return is declared Ruby will return the last operation excueted.
   - If no value is returned from method and nothing is operated.But Ruby will return something that is `nil`.
-  - For more Explanations i prefer you go to `5.ReturnValue-II.rb` it explains a lot more. 
+  - For more Explanations i prefer you go to `5.ReturnValue-II.rb` it explains a lot more.
+
+ ## If Statement
+  - It's a conditional statement.
+  - `If` is an logical statement which represents a condition in which we have to choose or check between the values.Ex: like if you want to eat a cake you need to goto the bakery or if you want to eat somthing spicy you will need to go to the Fast Food Center.Or more like if i have 100$ i will spend 20% of it and rest will be safe.If i have less than 100$ i will spend only 10% of it.
+  - A conditional statement always returns a Boolean.
+  - Syntax: `if statements\n codehere \nend`
+  - If statements can also have their own local variables.
+  - If the statement is true then the code inside the if block will get exceuted.
+  - If not then the code will be ignored.
