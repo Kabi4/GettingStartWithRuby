@@ -81,3 +81,11 @@
   - Then we use Nested Statement.
   - Nested statement are one statement inside the other like: If this then do this with input then again if this return this.
   -Ex: `if this{ a+=a; if this{ return a;}else{return a*a}}`.PS:For not having multiline in this i used braces syntax.
+
+ ## Response_to To Method
+  - It is available on every object in ruby.
+  - It is a boolean method.
+  - `.respond_to?("methodname")` or `.respond_to?(:methodname)`.
+  - `:name` is a symbol object which is used because it is much good than string object.And it is more memory efficient.
+  - It is use to check that if a object can respond_to to a certain method.Ex: `7.respond_to?("even?")`.
+  - It can use to check if a object can respond respond_to to a method only then we will use that method in it.
