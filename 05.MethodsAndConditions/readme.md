@@ -30,4 +30,6 @@
   - `return value` is used inside the method to return a final value.
   - If return is declared it is known as Explict Return.
   - If no return is declared it is known as implict Return.PS: Sorry for the spellings.
-  - If no return is declared Ruby will return the last operation excueted
+  - If no return is declared Ruby will return the last operation excueted.
+  - If no value is returned from method and nothing is operated.But Ruby will return something that is `nil`.
+  - For more Explanations i prefer you go to `5.ReturnValue-II.rb` it explains a lot more. 
