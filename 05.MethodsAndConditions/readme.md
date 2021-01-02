@@ -106,3 +106,8 @@
   - These are which not required but can be provided or have a default value which get automatically overridden when you provide a value when the method called if not provided the method will use its default value.
   - `I perfer to accpet this kind of arguments at the last so they dont mess with others`.
   - It is declared simple by assigning the default value while accpeting value in function.`def function(argv1,argv2="decalred")`.here argv2 is optional parameter.
+
+ ## Calling Methods in other methods and interpolationstring
+  - Method are called simply inside function or interpolationstring by calling it by its name.
+  - Condition: Method which is called should have defined already.
+  - refer to `17.callingMethod.rb`
