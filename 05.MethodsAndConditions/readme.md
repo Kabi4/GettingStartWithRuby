@@ -60,3 +60,12 @@
   - But with if and ifelsif we print both things when something is true.
   - Here come to rescue that if the all conditional statements are flase then do this otherwise do them.
   - For syntax refer to `9.elsekeyword.rb`
+  - Else is always declared at the end.
+  
+ ## Multiple Condition Check
+  - Suppose you want to check for two conditions for something.So what will you do you will something like nested loop a if condition inside a if condition what if you want to check 4 then four nested loops and not obeying DRY principle.
+  - So to ignore unwanted nested loops we use multiple condition statements.
+  - For all the statements to be true we use `&&` operator.Each condition is sperated by `&&` operator.
+  -Ex: `if age>21 && salary<40000 && gender=="M"`.The code will only execute only when all the three conditions are true.
+  - For any of the conditions to be true among all means if any is true the statement will execute and will do its work.we use `||` operator known as OR operator.
+  -Ex: `if age>21 && salary<40000 && gender=="F"`.The code will execute if any of one condition is true.
