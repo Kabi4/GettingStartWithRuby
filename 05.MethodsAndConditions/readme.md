@@ -10,3 +10,8 @@
   - Method is define with `def methodName\n code\n end`.
   - Method name should start with small letter.
   - What ever comes between def and end will be executed when the method is called.
+
+ ## Local Varibles
+  - Local Varibles belong to a particular method and inside the method it only existed as long as method is excecating it don't exists outside the method.
+  - Each times you exceute the method Ruby will assign those local variables each time in your computer.
+  - Ex: `def helloWorld \n a="Hii Ruby is awesome"\n end`.In this the a existed only inside the method and can only be used inside the method.You can assign the varible outside the method they will not collide.
