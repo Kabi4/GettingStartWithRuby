@@ -100,3 +100,9 @@
   - Ex: `number%2==0 ? number == 0 ? "Number is zero" : "The number is even" : "The number is odd`.
   - `Ternary operator is widely used by developer as it saves time and memory.`
   - `I higly recomment you to follow this pattern.`
+
+ ## Optional arguments
+  - The methods also supports default and optional arguments.
+  - These are which not required but can be provided or have a default value which get automatically overridden when you provide a value when the method called if not provided the method will use its default value.
+  - `I perfer to accpet this kind of arguments at the last so they dont mess with others`.
+  - It is declared simple by assigning the default value while accpeting value in function.`def function(argv1,argv2="decalred")`.here argv2 is optional parameter.
