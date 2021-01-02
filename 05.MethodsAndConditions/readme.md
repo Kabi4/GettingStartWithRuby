@@ -75,3 +75,9 @@
   - So we wrapped user and password expressions togehter and auth with that expression with an or sign.
   - Ex: `if (user = "kushagra" && password="meme") || token="auth"`.
   - Whatever comes in paranthesis Ruby will compare them togehter.
+
+ ## Nested If Statements
+  - Sometimes you have very complex conditions to deal with suppose we want to do something when something is true and with new thing we again want to compare it with something and do something.
+  - Then we use Nested Statement.
+  - Nested statement are one statement inside the other like: If this then do this with input then again if this return this.
+  -Ex: `if this{ a+=a; if this{ return a;}else{return a*a}}`.PS:For not having multiline in this i used braces syntax.
