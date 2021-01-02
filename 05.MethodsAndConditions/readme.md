@@ -53,3 +53,10 @@
   - If only checks one condition if we want to check multiple conditions.Till now we have to put if statements multiple times.That may be no problem to you but what if we want to print "find" if the line contains "red" and if it contains "red" and "blue" we need to print "excellent".but if two if block in continous it will check for 'red' print "find" then if it also contains 'blue' will print 'excellent'.but you only want to print "excellent".
   - In this statement the other condition is checked only when first one is false.That mean solution to above problem is if there is no red and blue in line then only check for red in line.
   - For example refer to `8.ifelsif.rb`.
+
+ ## If elsif Statement
+  - It is also a conditional statement.
+  - Let consider a situation in which you want to exceute a code when something is true but when false you dont want to let output empty instead of that you want to print something else.
+  - But with if and ifelsif we print both things when something is true.
+  - Here come to rescue that if the all conditional statements are flase then do this otherwise do them.
+  - For syntax refer to `9.elsekeyword.rb`
