@@ -89,3 +89,14 @@
   - `:name` is a symbol object which is used because it is much good than string object.And it is more memory efficient.
   - It is use to check that if a object can respond_to to a certain method.Ex: `7.respond_to?("even?")`.
   - It can use to check if a object can respond respond_to to a method only then we will use that method in it.
+
+ ## Ternary Operator 
+  - It is an return operator.Mixture of three type of expression.
+  - It is one line code that accepts , compare and return a value.
+  - Ternary Operator always return something.
+  - Syntax: `condition ? return value when it is true: otherwise this when false`.it is followed by condition then a `?` after which we declare the object which the code should return when the condition is true follower by `:` after that we declare a value which return the object to be return when condition is false.
+  - Ex: `8.odd? ? "The number is odd" : "The number is even"`.Yields : `The number is even`.
+  - We can also use the nested ternary operator but it doesn't considered as a good practice.
+  - Ex: `number%2==0 ? number == 0 ? "Number is zero" : "The number is even" : "The number is odd`.
+  - `Ternary operator is widely used by developer as it saves time and memory.`
+  - `I higly recomment you to follow this pattern.`
