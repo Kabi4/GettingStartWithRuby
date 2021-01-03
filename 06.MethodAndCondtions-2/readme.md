@@ -32,3 +32,8 @@
   - While the condition is true do the code below.
 
  ## Until Keyword
+  - It is also a loop.
+  - It is a complimentary to while condition.
+  - It continously do the code in its block until the condition is not true.
+  - It can interpet as until the code is not true do this thing again and again.
+  - Syntax `until condition \n{content}\n end`.
