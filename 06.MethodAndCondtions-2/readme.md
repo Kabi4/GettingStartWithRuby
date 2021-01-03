@@ -37,3 +37,13 @@
   - It continously do the code in its block until the condition is not true.
   - It can interpet as until the code is not true do this thing again and again.
   - Syntax `until condition \n{content}\n end`.
+
+ `Here you can serach for a Famous challenge FizzBuzz go ahead get your hands on it if you want to master programming it starts with small steps.`
+
+ ## Inline Modifier
+  - It used to reduce the code into a single line code.
+  - It should only be used when the statement is one liner.
+  - It is used with condition statements to do a line code when something is true.
+  - Ex: `p "You are gladly welcome in here" if (verified && user="kushagra")`.
+  - Ex: `p "You are gladly not welcomed in here" unless (verified && user="kushagra")`.
+  - It can be used with other like while and until go expriment by your self but remember it should be one liner.
