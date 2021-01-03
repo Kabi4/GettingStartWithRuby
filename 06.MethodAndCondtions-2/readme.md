@@ -22,3 +22,13 @@
   - Unless works just like if but it exceute its block code only when the condition is false.
   - It can be read like unless the statement is not true exceute the code below.
   - Ex: `unless num==1 \np "Not equal to 1" \nend`
+
+ ## While keyword
+  - It is a loop which repeats again and again.
+  - Never use this loop without being alert or it can stuck your pc while running same code again and again be sure your loop is going to end not remain for iternity.
+  - Syntax `while condition \n{content}\n end`.
+  - The content code will execute until the the condition is true.Again and again like `while 1<2` this loop will remain for infinite time so will loop will excute infinte time as 1 will always be less than 2.
+  - Usually we alter the condition every time in while condition so loop do per we want it to do.
+  - While the condition is true do the code below.
+
+ ## Until Keyword
