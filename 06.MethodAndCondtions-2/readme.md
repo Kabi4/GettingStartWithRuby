@@ -16,3 +16,9 @@
   - If the `!` mark is used in the condition it will tell code if not the condition then do the code !true will be false if the condition is false only then do the code.
   - If the thing after is not a boolean then ruby converts it into a boolean the negate it.
   - `!!true` will give true that is to negate the Negation of true.
+
+ ## Unless Keyword
+  - `unless` is a compliment of if.
+  - Unless works just like if but it exceute its block code only when the condition is false.
+  - It can be read like unless the statement is not true exceute the code below.
+  - Ex: `unless num==1 \np "Not equal to 1" \nend`
