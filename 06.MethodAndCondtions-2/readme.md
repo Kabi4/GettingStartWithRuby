@@ -47,3 +47,7 @@
   - Ex: `p "You are gladly welcome in here" if (verified && user="kushagra")`.
   - Ex: `p "You are gladly not welcomed in here" unless (verified && user="kushagra")`.
   - It can be used with other like while and until go expriment by your self but remember it should be one liner.
+
+ ## Conditional Assignment
+  - It allows us to assign a value to the variable if and only if the value of variable is `nil`.
+  - It is fancy value assignment used in high level ruby codes.
