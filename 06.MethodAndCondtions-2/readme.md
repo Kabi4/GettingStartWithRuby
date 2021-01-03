@@ -51,3 +51,5 @@
  ## Conditional Assignment
   - It allows us to assign a value to the variable if and only if the value of variable is `nil`.
   - It is fancy value assignment used in high level ruby codes.
+  - Syntax: `var ||= "value"`.It will only assign the value if the variable is nil.
+  - For example: `refer to 7.ConditionalAssignment.rb`
