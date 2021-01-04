@@ -22,3 +22,8 @@
   - In that order of storing alphabets the `A` comes first and `z` comes last.
   - Ex: `a..z` gives range of a to z.
   - `p A..z.first(40)` gives some intersting characters too.`["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P","Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "[", "\\", "]", "^", "_", "(backtickhere)", "a", "b", "c", "d", "e", "f", "g", "h"]`
+
+ ## Size Method
+  - This method is only available on the numeric Range.
+  - This method gives the total number of the digits or number present in that range.
+  - Ex: `10..20.size` will give `11`.`10...20` will give `10` because it dont include the last digit.
