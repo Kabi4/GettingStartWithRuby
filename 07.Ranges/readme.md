@@ -27,3 +27,9 @@
   - This method is only available on the numeric Range.
   - This method gives the total number of the digits or number present in that range.
   - Ex: `10..20.size` will give `11`.`10...20` will give `10` because it dont include the last digit.
+
+ ## Includes method in Range
+  - It gives the result if the given element is present in the particular range or not.
+  - returns a Boolean.
+  - Alternative for that is use `range === "element"`.
+  - Ex: `12..21 === 21` gives true.`"a".."m",includes?("z") "a".."m",includes?("E")` both will gives false.
