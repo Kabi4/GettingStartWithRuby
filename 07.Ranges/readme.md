@@ -13,3 +13,12 @@
   - With arugment they return multiple numbers the count of numbers are equal to the arugment passed that is `51..60.first(2)` gives [51,52].This bracket type notation with elements inside it seprated by comma is known as Array.
   - As last without arugment in three dot range gives the excluded digit but if we pass argument it gives the last included digit ex: `51...60.last(1)` gives [59].It also does make sense beacuse it does upto the last digit but never included it.
   - Ex: `51...60.last(4)` yeilds [56,57,58,59].
+  - NOTE: Range must be assign the varible to use its methods because ruby thinks that we gonna call method in the last digit itself so we want ruby to process the Range Object first thus,then call the Method.
+
+ ## Alphabaltic Range
+  - Alphabaltic Range works same as number range.
+  - Ruby stores both case of alphabets seprately and bunch of characters in between them.
+  - So when you want to get only the one case of alphabets stick to similar case both side.
+  - In that order of storing alphabets the `A` comes first and `z` comes last.
+  - Ex: `a..z` gives range of a to z.
+  - `p A..z.first(40)` gives some intersting characters too.`["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P","Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "[", "\\", "]", "^", "_", "(backtickhere)", "a", "b", "c", "d", "e", "f", "g", "h"]`
