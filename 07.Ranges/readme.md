@@ -33,3 +33,10 @@
   - returns a Boolean.
   - Alternative for that is use `range === "element"`.
   - Ex: `12..21 === 21` gives true.`"a".."m",includes?("z") "a".."m",includes?("E")` both will gives false.
+
+ ## Random Number
+  - It gives a random number between 0 to 1.Ex `p rand`
+  - To get a precise decimal point we can use `rand.round(2)` gives decimal between 0 to 1 precise upto 2 digits.
+  - To get a random integer from 0 to a specific number we use `rand(60) `gives interger randomly between 0 and 60 but not 60.
+  - To get random decimal to specific number we use `rand * 100` gives random decimal upto 100 not includng 100.
+  - To get random number picked from a specific range we pass the range in it `rand(50..60)` gives random number between 50 to 60 includes 60 if we pass `50...60` is excludes 60.
