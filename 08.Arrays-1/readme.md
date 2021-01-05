@@ -64,3 +64,10 @@
   - Indexposition here can be negative.
   - If we pass the index position two times it will get that element two times.
   - For out of bounds indexes it will give return.
+
+ ## Slice Method
+  - It is use to slicing a part of array like Accessing sequencial elements.
+  - `.slice` is syntax.
+  - It is totally indentical to `[]` method.
+  - It can be use to extract one element aur whole subarray.
+  - Similar to [] Ranges,two arguments and singel arguments can be provided to the method.
