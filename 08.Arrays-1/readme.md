@@ -44,3 +44,11 @@
   - `name.fetch(indexPosition)`.Gives the element if the index position is under the length of array.
   - Unlikely like `[]` fetch doesnt gives the nil object for the out of index position instead of that it throws an error.You can use it if you want to fetch an error if object doesnt exists.
   - But you still dont want to get the error you can provide `Two Arguments inside the fetch method` first is the index of the object you want to access and second is the element that fetch will return when the element is not present.`.fetch(index,nil)` gives nil for out of index positions.
+
+ ## Access Sequential Element
+  - It access a sequential subarray from the array.
+  - `[indexPosition,numberOfElement]` it gives the number of elements starting from the index position provided.
+  - Ex: `[1,2,3,4,5][2,3]` gives `[3,4,5]`.
+  - If provided second argument 1 it gives an array with 1 element not element.
+  - If provided second argument 0 it gives an empty array.
+  - If the second argument provided is greater than the size of array it cuts off the counting at the end of array.
