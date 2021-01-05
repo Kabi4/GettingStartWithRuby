@@ -57,3 +57,10 @@
   - `[x..y]` it get the element in the range with x to y included or exluded as provided.
   - Ex: `[1,2,3,4,5][2..4]` gives `[3,4,5]`.
   - `[1,2,3,4,5][2...4]` gives `[3,4]`.
+
+ ## Access element with Values Method
+  - `values_at(indexPosition)` is method for accessing element at index Position.
+  - `values_at(index1,index2,index3)` is method for accessing multiple values at index Positions given seprated by comma.
+  - Indexposition here can be negative.
+  - If we pass the index position two times it will get that element two times.
+  - For out of bounds indexes it will give return.
