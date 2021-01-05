@@ -38,3 +38,9 @@
   - Think about the above line array.length gives the length of the array but as index position is always one less than the normal count so -1 for accessing the last element.
   - If we access the the element which do not exists in the array it will give us nil object.
   - `[]` are the shorthand for a method which behind the scenes ruby handles for us to being the super friendly object `arrayName.[](index)` access the element.
+
+ ## Fetch Method
+  - It is too used to access the element inside an Array.
+  - `name.fetch(indexPosition)`.Gives the element if the index position is under the length of array.
+  - Unlikely like `[]` fetch doesnt gives the nil object for the out of index position instead of that it throws an error.You can use it if you want to fetch an error if object doesnt exists.
+  - But you still dont want to get the error you can provide `Two Arguments inside the fetch method` first is the index of the object you want to access and second is the element that fetch will return when the element is not present.`.fetch(index,nil)` gives nil for out of index positions.
