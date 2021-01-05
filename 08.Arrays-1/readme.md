@@ -52,3 +52,8 @@
   - If provided second argument 1 it gives an array with 1 element not element.
   - If provided second argument 0 it gives an empty array.
   - If the second argument provided is greater than the size of array it cuts off the counting at the end of array.
+
+ ## Access Array with Range Object
+  - `[x..y]` it get the element in the range with x to y included or exluded as provided.
+  - Ex: `[1,2,3,4,5][2..4]` gives `[3,4,5]`.
+  - `[1,2,3,4,5][2...4]` gives `[3,4]`.
