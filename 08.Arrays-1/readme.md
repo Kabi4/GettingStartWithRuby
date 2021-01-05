@@ -19,3 +19,8 @@
   - `name = %w[]` is the shorthand for creating an array where name is the name of the array.
   - Inside the brackets we dont need to puts commas and use double quotes for strings. every object with space is considered as a object.
   - `personNames = %w[Kushagra Singh donkey human divnity]`.4 Object.
+
+ ## Creating Array with array class.
+  - `Array.new(10)` gives a new array with 10 elements all `nil`.
+  - `Array.new(10,false)`gives a new array with 10 elements all `false` or the object provide as the argument 2.
+  - `Array.new(10,[1,2,3])`gives a new array with 10 elements all an array of `[1,2,3]`.
