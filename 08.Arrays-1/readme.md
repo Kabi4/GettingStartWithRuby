@@ -112,3 +112,9 @@
   - It also returns the removed element from the array so we can store it if we want to see the removed element.
   - When called simply `.pop` it removes the last element of the array.And rememeber it also returns the removed element.
   - It also accpets an argument `.pop(argv)` if pass which argument it accpets an Fixnum it removes the number of elements you want to pop from the end.It returns the array of removed elements.Ex: `arr.pop(2)` removes last two elements from arr and also return array of removed elements.
+
+ ## Shift and Unshift Method 
+  - `.shift` method removes the element from the beginning of the array.Like pop it also returns the removed element.
+  - Like pop it also accepts an arugment removes multiple elements.
+  - `.unshift` method adds elements to the beginning of the array.
+  - unshift accpets multiple arugment separated by a comma to add mutiple elements.
