@@ -92,3 +92,9 @@
   - Empty check is the array length is 0 that is if the array is empty returns true if it is and false if not.
   - Nil is present on every object it returns false until the object have a Class nil.
   - BONUS: `Range object also have .to_a methof which converts all the object with that range to an array.`
+
+ ## First And Last Method
+  - `.first` and `.last` method extract the first and last element of the array respectively.
+  - They also accpet an argument and can be called with arguments.
+  - With arguments it return the exact number of elements from first or last depends on which the method is called if called on first it gonna return the first 4 or 3 depend on the arugment you provided.
+  - `[1,2,3,4,5,6,7,8,9].first(4)` gives `[1,2,3,4]`.When called with one it returns the first element only but in the array not as an element.With 0 gives an empty array.
