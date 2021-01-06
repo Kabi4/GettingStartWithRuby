@@ -98,3 +98,11 @@
   - They also accpet an argument and can be called with arguments.
   - With arguments it return the exact number of elements from first or last depends on which the method is called if called on first it gonna return the first 4 or 3 depend on the arugment you provided.
   - `[1,2,3,4,5,6,7,8,9].first(4)` gives `[1,2,3,4]`.When called with one it returns the first element only but in the array not as an element.With 0 gives an empty array.
+
+ ## Push Method and Shovel method
+  - `.push(argv)` The push method takes an argument which is added to the very end of the array as a new element.
+  - `p [1,2,3].push("New Object")` gives [1,2,3,"New Object"].
+  - `<<` Shovel Operator is also used to add elements at the end of the array.
+  - `p [1,2,3] << 4` gives [1,2,3,4].
+  - Shovel operatir automaticlly return an array so we can use it operator in a chaining `arr << obj1 << obj2`.
+  - `.insert(argv1,argv2)` it accpets two arguments one the index position you want to insert at and the new object you want to insert it pushes the index position of other elements which are ahead of current position by 1.
