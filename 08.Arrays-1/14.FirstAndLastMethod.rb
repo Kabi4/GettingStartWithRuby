@@ -18,7 +18,7 @@ def custom_first(arr,n=nil)
     end
 end
 
-def custom_last(arr,n=0)
+def custom_last(arr,n=nil)
     if n===0
         return []
     elsif n
