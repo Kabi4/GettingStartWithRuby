@@ -85,3 +85,10 @@
   - Behind the scene it is said that .size method is a bit faster than the length mehtode.
   - I said total number of declared elements because when delcare and value set to nil it does count it.
   - `.count(arugment)` does accpets one arugment which is a value when it is called with arugment it gives the total number of times that arugment is present in the array.
+
+ ## Nil And Empty Method
+  - These are Boolean methods.
+  - `.nil?` and `.empty?`.
+  - Empty check is the array length is 0 that is if the array is empty returns true if it is and false if not.
+  - Nil is present on every object it returns false until the object have a Class nil.
+  - BONUS: `Range object also have .to_a methof which converts all the object with that range to an array.`
