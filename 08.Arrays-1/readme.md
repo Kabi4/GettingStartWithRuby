@@ -106,3 +106,9 @@
   - `p [1,2,3] << 4` gives [1,2,3,4].
   - Shovel operatir automaticlly return an array so we can use it operator in a chaining `arr << obj1 << obj2`.
   - `.insert(argv1,argv2)` it accpets two arguments one the index position you want to insert at and the new object you want to insert it pushes the index position of other elements which are ahead of current position by 1.
+
+ ## Pop Method
+  - It Removes an element from the array.
+  - It also returns the removed element from the array so we can store it if we want to see the removed element.
+  - When called simply `.pop` it removes the last element of the array.And rememeber it also returns the removed element.
+  - It also accpets an argument `.pop(argv)` if pass which argument it accpets an Fixnum it removes the number of elements you want to pop from the end.It returns the array of removed elements.Ex: `arr.pop(2)` removes last two elements from arr and also return array of removed elements.
