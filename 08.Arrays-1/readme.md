@@ -71,3 +71,11 @@
   - It is totally indentical to `[]` method.
   - It can be use to extract one element aur whole subarray.
   - Similar to [] Ranges,two arguments and singel arguments can be provided to the method.
+
+ ## Mutating Array
+  - Array can be mutated that means delete an element overwrite an element and add an element.
+  - We can overwrite an element we need to access the element and provide a new value at right hand side of the `=`sign.
+  - Syntax: `array[index]=NewValue`.
+  - If the index is doesnt exists it assign the nil values up to the index if there is no value for those index and assign the value you give it to assign at the index position.
+  - If you want to assign multiple values access the multiple values an give an array to right hand side of the sign.
+  - If we provide an array with less elements it simply remove the index position elements or you can say delete them and assign the values given to starting indexs.
