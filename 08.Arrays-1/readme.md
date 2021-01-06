@@ -79,3 +79,9 @@
   - If the index is doesnt exists it assign the nil values up to the index if there is no value for those index and assign the value you give it to assign at the index position.
   - If you want to assign multiple values access the multiple values an give an array to right hand side of the sign.
   - If we provide an array with less elements it simply remove the index position elements or you can say delete them and assign the values given to starting indexs.
+
+ ## Length And Size Method
+  - `.length` , `.size`,`.count` method are exact same and indentical with a little difference give the count of total number of declared elements in the array or total number of elements to be simple.
+  - Behind the scene it is said that .size method is a bit faster than the length mehtode.
+  - I said total number of declared elements because when delcare and value set to nil it does count it.
+  - `.count(arugment)` does accpets one arugment which is a value when it is called with arugment it gives the total number of times that arugment is present in the array.
