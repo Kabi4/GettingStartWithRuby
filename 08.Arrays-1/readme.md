@@ -118,3 +118,9 @@
   - Like pop it also accepts an arugment removes multiple elements.
   - `.unshift` method adds elements to the beginning of the array.
   - unshift accpets multiple arugment separated by a comma to add mutiple elements.
+
+ ## Comparing Two Array
+  - Comparing two array are same as comparing any object.
+  - It is acheived by comparing with equality or inequalty operator.
+  - Arrays first compare the length of array then the each and every object by their index patner in other araay only if they are same it returns true.
+  - For inequalty operator it returns true if they are not indentical array.
