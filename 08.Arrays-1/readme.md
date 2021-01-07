@@ -135,3 +135,9 @@
   - And return nil when values are incompareable.
   - In array if any two values are incompareable like at array1 we have string at index 0 and array2 we have fixnum at index 0 it will return nil to us saying they are not comparebale objects.
   - Else it will behave similar to array in comparison.
+
+ ## Range to a Array
+  - Range have a disavantage that it values cannot be extracted.
+  - we solve this problem by converting a range into a Array.
+  - Range have a special method `.to_a` which covert the whole range into an array.
+  - Ex: `2...6.to_a`[2,3,4,5],`i..q.to_a`[i,j,k,l,m,n,o,p,q].
