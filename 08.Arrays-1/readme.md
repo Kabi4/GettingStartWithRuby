@@ -124,3 +124,14 @@
   - It is acheived by comparing with equality or inequalty operator.
   - Arrays first compare the length of array then the each and every object by their index patner in other araay only if they are same it returns true.
   - For inequalty operator it returns true if they are not indentical array.
+
+ ## Spaceship Operator
+  - It is used to compare two objects.
+  - It is represented by `<=>`.
+  - It return four values -1,0,1,nil.
+  - It returns 0 when two values are equal.
+  - It returns 1 when left hand side value is greater.
+  - It returns -1 when right hand side value is greater.
+  - And return nil when values are incompareable.
+  - In array if any two values are incompareable like at array1 we have string at index 0 and array2 we have fixnum at index 0 it will return nil to us saying they are not comparebale objects.
+  - Else it will behave similar to array in comparison.
