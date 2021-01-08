@@ -13,3 +13,9 @@
   - Two pipelines are just declared at the start of the block in a loop which contain the value of current count.
   - `3.times{ |i| p "Hello#{i}"}`.
   - `We basically use curly brace for one line and do end for multi liner`.
+
+ ## Each method
+  - It is also a block scoped method which exceute it block content over time and times.
+  - It run number of times equal to the count of elements in the array.
+  - The `|i|` pipeline varible contains the value of element over which it is iterating.
+  - In short each method loop thorough each element repeats the block call each time carrying the value to be the elements value.
