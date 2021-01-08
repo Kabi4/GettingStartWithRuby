@@ -19,3 +19,8 @@
   - It run number of times equal to the count of elements in the array.
   - The `|i|` pipeline varible contains the value of element over which it is iterating.
   - In short each method loop thorough each element repeats the block call each time carrying the value to be the elements value.
+
+ ## Each Method Throughly
+  - You can define a variable outside the block and stores value in it to access the value of the inside block checking a condition if you want to for refer see `4.EachMehtodDeeply.rb`.
+  - You can sum up all number after perfrom modulo on each by defining the top element and adding it into is after moduling.
+  - You can also acces the index position every time by defining a global variable and increasing it by one every time.But always remeber you have to reset the position.
