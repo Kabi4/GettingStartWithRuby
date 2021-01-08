@@ -20,6 +20,14 @@ end
 p odds
 p evens
 
+odds = []
+evens = []
+
+nums.each {|eke| eke.odd? ? odds << eke : evens << eke}
+
+p odds
+p evens
+
 index = 0
 
 nums.each do |e|
