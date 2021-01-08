@@ -24,3 +24,4 @@
   - You can define a variable outside the block and stores value in it to access the value of the inside block checking a condition if you want to for refer see `4.EachMehtodDeeply.rb`.
   - You can sum up all number after perfrom modulo on each by defining the top element and adding it into is after moduling.
   - You can also acces the index position every time by defining a global variable and increasing it by one every time.But always remeber you have to reset the position.
+  - You can run an each loop within a each loop and the inner each loop has access to all the outer and its block variable.For refer `5.EachWithinEach.rb`
