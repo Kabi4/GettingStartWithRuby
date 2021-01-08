@@ -141,3 +141,19 @@
   - we solve this problem by converting a range into a Array.
   - Range have a special method `.to_a` which covert the whole range into an array.
   - Ex: `2...6.to_a`[2,3,4,5],`i..q.to_a`[i,j,k,l,m,n,o,p,q].
+
+ ## is_a? method.
+  - It is a boolen or a predicae method.
+  - It can be call in any object.
+  - As its name it check is a object is from a particular class.
+  - Syntax `.is_a(class_Name)` it accepts a arugment which is a class_Name which we want to check with.
+  - Ex: `1.is_a(String)` will gives false `1.is_a(Fixnum)` will give true.
+  - Class Name should be provided in case sensitive and without paranthesis.
+  - It can be used to check the output or result in a method call and treat the object respective to its class.
+  - Or throw an error.
+  - Every class come from a BasicObject and a Object.
+  - like fixnum and bignum both come from a class Integer.
+  - TrueClass and FalseClass both come form Boolean.
+  - All objects have Class `Object` and `BasicObject`.So if we check for that hey will always return true.
+  - Because all class have been inherited these class they are at the top of the hierarchy.
+  - Every class we use are the lower hierarchy of classes where we define the seprated functionlaty of different classes.
