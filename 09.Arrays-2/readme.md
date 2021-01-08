@@ -12,4 +12,4 @@
   - Block is represented by { content } & by do content end.
   - Two pipelines are just declared at the start of the block in a loop which contain the value of current count.
   - `3.times{ |i| p "Hello#{i}"}`.
-  - ``.
+  - `We basically use curly brace for one line and do end for multi liner`.
