@@ -24,4 +24,8 @@
   - You can define a variable outside the block and stores value in it to access the value of the inside block checking a condition if you want to for refer see `4.EachMehtodDeeply.rb`.
   - You can sum up all number after perfrom modulo on each by defining the top element and adding it into is after moduling.
   - You can also acces the index position every time by defining a global variable and increasing it by one every time.But always remeber you have to reset the position.
-  - You can run an each loop within a each loop and the inner each loop has access to all the outer and its block variable.For refer `5.EachWithinEach.rb`
+  - You can run an each loop within a each loop and the inner each loop has access to all the outer and its block variable.For refer `5.EachWithinEach.rb`.
+
+ ## For Loop
+  - For loop is also a method to irrirate through an array and one of the most popular way of iterating array but in ruby it is Not Popular At all because each method is considered more secure.
+  - Because in each method the block variable do not effect the global variables but in for loop they to effect the global varible.They overrides it if the name of the block variable is same as the name of the global variable.
