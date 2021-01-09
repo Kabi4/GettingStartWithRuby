@@ -29,3 +29,9 @@
  ## For Loop
   - For loop is also a method to irrirate through an array and one of the most popular way of iterating array but in ruby it is Not Popular At all because each method is considered more secure.
   - Because in each method the block variable do not effect the global variables but in for loop they to effect the global varible.They overrides it if the name of the block variable is same as the name of the global variable.
+  - Refer: `6.ForLoop.rb`.
+
+ ## each_with_index method
+  - As in previous lessons i told you to keep a global variable to keep the count of indexes but we have another method in ruby to ease our life.
+  - `.each_with_index` comes to rescue the index problem with it we can access two block variables first is the element and second is the index position of current element.
+  - Refer: `7.EachWithIndex.rb`.
