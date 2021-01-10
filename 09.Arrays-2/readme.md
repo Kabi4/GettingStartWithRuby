@@ -55,4 +55,10 @@
   - `break` is used to break a loop method or any block or code without considering the condition we declared.
   - It is useful in somecase if you want to find a element in a array or many more.
   - It break only the block it is declared in not entire programme.Effect on one loop.
-  - Refer: `9.BreakKeyword.rb`.
+  - Refer: `10.BreakKeyword.rb`.
+
+ ## Next Keyword
+  - `next` is used to skip over the current irriration means that skip this loop from here and move onto next element.
+  - It is useful in somecase if you want to only print element square if they are integer otherwise skip the element.
+  - It only skips the one irriration from here on code for this element, current one will not be executed.
+  - Refer: `11.NextKeyword.rb`
