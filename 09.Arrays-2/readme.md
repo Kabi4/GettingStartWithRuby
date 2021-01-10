@@ -50,3 +50,9 @@
   - We provide the condition in while that varible value is less than the length of array.So we can goto the last element then stop.
   - Thus by index position we can access the element in array.
   - Refer: `9.IrratingArrayWithWhileAndUntil.rb`.
+
+ ## Break Keyword
+  - `break` is used to break a loop method or any block or code without considering the condition we declared.
+  - It is useful in somecase if you want to find a element in a array or many more.
+  - It break only the block it is declared in not entire programme.Effect on one loop.
+  - Refer: `9.BreakKeyword.rb`.
