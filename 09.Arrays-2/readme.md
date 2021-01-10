@@ -41,4 +41,12 @@
   - They return an array of the elements that is returned by the block or if not mentioned returned the last operation occurs on the block as we see every method returns something.
   - The number of elements in the resulted array is similar to the number of elements in the orignal array.
   - NOTE: `If we use puts method in the end we will get an array of nils because puts returns nil.`. Becareful not using puts method in the end of the block.
-  - Refer: `7.MapMethod.rb`.
+  - Refer: `8.MapMethod.rb`.
+
+ ## Iterating Array with While and until
+  - It is also used to iterating over the array.
+  - They are the old school methods for iterating over the array.
+  - We declare an varible holding the index position start with 0.
+  - We provide the condition in while that varible value is less than the length of array.So we can goto the last element then stop.
+  - Thus by index position we can access the element in array.
+  - Refer: `9.IrratingArrayWithWhileAndUntil.rb`.
