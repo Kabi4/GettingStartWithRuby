@@ -7,7 +7,13 @@ while i < animals.length #execute the blcok until the last element is accessed
     i+=1
 end
 
-i = 0
+until i<0 #until  this condition do not become true excetute this blok
+    p animals[i]
+    i-=1
+end
+#this will print nil first because 4 do execute and this position element there is nil
+
+
 until i >= animals.length
     puts animals[i]
     i+=1
