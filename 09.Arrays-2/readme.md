@@ -76,3 +76,9 @@
   - For strings they will sort in order in which they are stored in the RUBY i.e UPPERCASE character comes before LOWERCASE character i.e Zebra is smaller than zebra. and like a regular dictionary.
   - They also have equivalent bang method which modify the orignal array `.sort!`.
   - Ex: `[1,5,2,9,5,6].sort` gives `[1,2,5,5,6,9]`.
+
+ ## Concat Method
+  - Concat method is use to join another array in the end of array though we can use `+` operator to join two arrays together.
+  - `.concat(arr)` concat accpets an argument that accpets another which will join to the end of this array.
+  - `Concat Does Modifies the orignal array.`
+  - Ex: `[1,2].concat(["hello","join"])` yields `[1,2,"hello","join"]`.
