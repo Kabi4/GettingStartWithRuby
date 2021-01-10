@@ -35,3 +35,10 @@
   - As in previous lessons i told you to keep a global variable to keep the count of indexes but we have another method in ruby to ease our life.
   - `.each_with_index` comes to rescue the index problem with it we can access two block variables first is the element and second is the index position of current element.
   - Refer: `7.EachWithIndex.rb`.
+
+ ## Map And Collect
+  - They are totally indectial method or you can say just different name for same method.
+  - They return an array of the elements that is returned by the block or if not mentioned returned the last operation occurs on the block as we see every method returns something.
+  - The number of elements in the resulted array is similar to the number of elements in the orignal array.
+  - NOTE: `If we use puts method in the end we will get an array of nils because puts returns nil.`. Becareful not using puts method in the end of the block.
+  - Refer: `7.MapMethod.rb`.
