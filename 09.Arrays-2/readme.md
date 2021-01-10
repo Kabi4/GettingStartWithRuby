@@ -88,3 +88,9 @@
   - `.min` returns the smallest element in the array.
   - For strings arrays it will return the last element in the sorted array of that strings array.
   - Refer: `15.MaxAndMinMethod.rb`.
+
+ ## Include Method in the array 
+  - `.include?(argv)` method is a predicate or Boolean method.
+  - It returns true if the array contains the given value passed into the array.
+  - `[21.32,24,5,1,141].include?(21.32)` gives true.
+  - `FOR STRINGS ALWAYS REMEMBER CASESENSITIVITY MATTERS.`
