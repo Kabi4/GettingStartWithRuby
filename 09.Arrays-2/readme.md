@@ -82,3 +82,9 @@
   - `.concat(arr)` concat accpets an argument that accpets another which will join to the end of this array.
   - `Concat Does Modifies the orignal array.`
   - Ex: `[1,2].concat(["hello","join"])` yields `[1,2,"hello","join"]`.
+
+ ## Max And Min Method in Array
+  - `.max` returns the largest element in the array.
+  - `.min` returns the smallest element in the array.
+  - For strings arrays it will return the last element in the sorted array of that strings array.
+  - Refer: `15.MaxAndMinMethod.rb`.
