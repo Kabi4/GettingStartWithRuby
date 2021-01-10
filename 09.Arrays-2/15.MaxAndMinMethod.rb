@@ -9,14 +9,14 @@ p frutis.min #"apple"
 p frutis.max #"watermelon"
 
 def custom_max(orgArr)
-    return nil if orgArr.nil? 
+    return nil if orgArr.empty? 
     arr = orgArr
     arr.sort!
     return arr[-1]
 end
 
 def custom_min(orgArr)
-    return nil if orgArr.nil? 
+    return nil if orgArr.empty? 
     arr = orgArr
     arr.sort!
     return arr[0]
