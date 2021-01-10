@@ -69,3 +69,10 @@
   - The order of element get reversed.
   - We also have `.reverse!` bang method of reverse that modify the orignal array.
   - Ex: `[1,2,3,4].reverse` will give `[4,3,2,1]`.
+
+ ## Sort Method
+  - As the name suggests it sort the array into increasing order.
+  - For numbers it will make it in increasing order like 1,2,3,4.
+  - For strings they will sort in order in which they are stored in the RUBY i.e UPPERCASE character comes before LOWERCASE character i.e Zebra is smaller than zebra. and like a regular dictionary.
+  - They also have equivalent bang method which modify the orignal array `.sort!`.
+  - Ex: `[1,5,2,9,5,6].sort` gives `[1,2,5,5,6,9]`.
