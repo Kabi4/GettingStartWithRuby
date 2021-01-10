@@ -62,3 +62,10 @@
   - It is useful in somecase if you want to only print element square if they are integer otherwise skip the element.
   - It only skips the one irriration from here on code for this element, current one will not be executed.
   - Refer: `11.NextKeyword.rb`
+
+ ## Reverse Method
+  - Like reverse method in string it reversed the array.
+  - Reversing array is totally independent of type of element in array.
+  - The order of element get reversed.
+  - We also have `.reverse!` bang method of reverse that modify the orignal array.
+  - Ex: `[1,2,3,4].reverse` will give `[4,3,2,1]`.
