@@ -105,4 +105,9 @@
   - Select method `must always` evaluate a boolean in the end of the block.`ALWAYS`.
   - For the elements which the condition evalute true will be included in the resulted array and element with condition false will be rejected.
   - It returns a brand new array.
-  - Ex: `p [1,2,3,4,5,6,7,8,9].select{ |ele| ele.odd? }` gives `[1,3,5,7,9]`
+  - Ex: `p [1,2,3,4,5,6,7,8,9].select{ |ele| ele.odd? }` gives `[1,3,5,7,9]`.
+ 
+ ## Reject Method
+  - It includes all the properties of select method must have a boolean evaluated in the block.
+  - It just return the array of rejected elements that is yeild to false in condition.
+  - Ex: `p [1,2,3,4,5,6,7,8,9].select{ |ele| ele.odd? }` gives `[2,4,6,8]`.
