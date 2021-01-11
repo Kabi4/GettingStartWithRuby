@@ -99,3 +99,10 @@
   - They both are indentical method which returns a index position.
   - `.index(argv)` OR `.find_index(argv)` accpets a Object as a argument if the object present in the array it gives the position of the element in array if not present it returns `nil`.
   - Ex: `arr = [1,2,3,4]` `arr.index(1)` gives 0 `arr.index(33)` gives nil.
+
+ ## Select Method
+  - This method select few elements from the array which met the specific condition.
+  - Select method `must always` evaluate a boolean in the end of the block.`ALWAYS`.
+  - For the elements which the condition evalute true will be included in the resulted array and element with condition false will be rejected.
+  - It returns a brand new array.
+  - Ex: `p [1,2,3,4,5,6,7,8,9].select{ |ele| ele.odd? }` gives `[1,3,5,7,9]`
