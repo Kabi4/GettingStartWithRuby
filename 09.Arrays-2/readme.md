@@ -110,10 +110,18 @@
  ## Reject Method
   - It includes all the properties of select method must have a boolean evaluated in the block.
   - It just return the array of rejected elements that is yeild to false in condition.
-  - Ex: `p [1,2,3,4,5,6,7,8,9].select{ |ele| ele.odd? }` gives `[2,4,6,8]`.
+  - Ex: `p [1,2,3,4,5,6,7,8,9].reject{ |ele| ele.odd? }` gives `[2,4,6,8]`.
 
  ## Unpack A Multidimensional Array
   - Let array : `[["Bob",21,"male",false],["Marry",26,"female",true],["Harry",31,"male",true],["Alice",23,"female",false]]`.
   - We can access the Objects in array with index position with square bracket syntaxs.
   - We use also destructuring work as `bob,marry,harry,alice = array`. will assign the right side object to varible on left side.
   - We must always confirm that the variable on left side is equal to the elements in the right side array. Other wise we will get a big fat error.
+
+ ## Partition Method 
+  - It is bit similar to Reject and Select method.
+  - It must always evaluate a boolean expression in the end of block.
+  - It returns a 2-D array that is a array of two arrays.
+  - One array is of selected elements and other of Rejected element that is based on condition true and false.
+  - First array in the returned array is element of selected Elements and other of rejected elements.
+  - Ex: `p [1,2,3,4,5,6,7,8,9].partition{ |ele| ele.odd? }` gives `[2,4,6,8]`.
