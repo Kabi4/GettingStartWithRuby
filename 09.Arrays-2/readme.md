@@ -94,3 +94,8 @@
   - It returns true if the array contains the given value passed into the array.
   - `[21.32,24,5,1,141].include?(21.32)` gives true.
   - `FOR STRINGS ALWAYS REMEMBER CASESENSITIVITY MATTERS.`
+
+ ## Index And FindIndex Method
+  - They both are indentical method which returns a index position.
+  - `.index(argv)` OR `.find_index(argv)` accpets a Object as a argument if the object present in the array it gives the position of the element in array if not present it returns `nil`.
+  - Ex: `arr = [1,2,3,4]` `arr.index(1)` gives 0 `arr.index(33)` gives nil.
