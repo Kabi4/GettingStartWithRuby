@@ -17,3 +17,9 @@
   - We can do anything with the block variable and in each itration what we want.
   - BONUS: `.chars` gives us array of characters in the string.
   - Ex: `"hello".each_char{ |letter| p letter }` gives `"h"\n"e"\n"l"\n"l"\n"o"`.
+
+ ## Join Method on Array
+  - This method is only used in String array.
+  - `.join` used to join array elements together with no space between.Ex: `["Joe","Non"].join` gives `"JoeNon"`.
+  - Join Method also accepts an argument which is an string which is put between two element of array when the method joins two method.
+  - Ex: `["h","e","l","l","o"].join("-")` gives `"h-e-l-l-o"`.
