@@ -28,3 +28,13 @@
   - `.count` method used to count the character in string.
   - Remember when passed a character inside the method it count the number of times that character present in string.
   - But when we pass a string in the count it returns the number of times the sum of all individual characters in the argument string present in the string.Ex: `"hello world".count("lo")` gives `5` it count the number of l and o and sum them.
+
+ ## Index and rIndex method
+  - `.index(argv)` accpets a argument which is an substring.
+  - It returns the position of start of substring if it present in String and nil elsewise.
+  - Ex: `reamream.index("am")` gives 2.
+  - As you see if the string is present multiple times then the position returned when first it matched.
+  - `index` also accpets second argument which defines from where we want to start our searching.
+  - Ex: `reamream.index("am",2)` will gives 6.`reamream.index("m",3)` will gives 3.`reamream.index("m",4)` will gives 7.
+  - `.rindex(argv1,argv2(optional))` is a reverse method of index which search the substring from the end of array.
+  - Ex: `reamream.index("am")` gives 6.
