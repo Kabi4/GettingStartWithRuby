@@ -23,3 +23,8 @@
   - `.join` used to join array elements together with no space between.Ex: `["Joe","Non"].join` gives `"JoeNon"`.
   - Join Method also accepts an argument which is an string which is put between two element of array when the method joins two method.
   - Ex: `["h","e","l","l","o"].join("-")` gives `"h-e-l-l-o"`.
+
+ ## Count Method
+  - `.count` method used to count the character in string.
+  - Remember when passed a character inside the method it count the number of times that character present in string.
+  - But when we pass a string in the count it returns the number of times the sum of all individual characters in the argument string present in the string.Ex: `"hello world".count("lo")` gives `5` it count the number of l and o and sum them.
