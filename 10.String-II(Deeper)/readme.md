@@ -50,3 +50,7 @@
   - With arugment only the letter presented in the string will be squeezed and other will remain untouched.
   - `It also come with bang(!) variation as the method dont manipulate the original string.`
   - Ex: `"tthhee  hectoor".squeeze(" the")` gives `the hectoor`.
+
+ ## Clear method
+  - `Even though it doesn't end with a ! but it does mutate the original string.`
+  - `.clear` clear the whole string from the memory and return us brand new empty string.
