@@ -38,3 +38,8 @@
   - Ex: `reamream.index("am",2)` will gives 6.`reamream.index("m",3)` will gives 3.`reamream.index("m",4)` will gives 7.
   - `.rindex(argv1,argv2(optional))` is a reverse method of index which search the substring from the end of array.
   - Ex: `reamream.index("am")` gives 6.
+ 
+ ## Insert Method
+  - `.insert(argv1,argv2)` accpets two arguments first is position and second is the string which it insert between the string.
+  - It does modify the original Object.
+  - Ex: `"GeogrWashington".insert(5,"e ")` gives `"Geogre Washington"`.
