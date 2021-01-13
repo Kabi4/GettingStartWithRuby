@@ -54,3 +54,9 @@
  ## Clear method
   - `Even though it doesn't end with a ! but it does mutate the original string.`
   - `.clear` clear the whole string from the memory and return us brand new empty string.
+
+ ## Delete Method
+  - `.delete(argv)` delete all the arguments characters from the string.
+  - Here and also in squeeze method case sensitive does matter.
+  - It also comes with band(!) variant which mutates the original string.
+  - Ex:`"helloHowdy!".delete("ho")` gives `"ellHwdy!"`.
