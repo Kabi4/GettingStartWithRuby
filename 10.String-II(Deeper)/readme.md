@@ -43,3 +43,10 @@
   - `.insert(argv1,argv2)` accpets two arguments first is position and second is the string which it insert between the string.
   - It does modify the original Object.
   - Ex: `"GeogrWashington".insert(5,"e ")` gives `"Geogre Washington"`.
+
+ ## Squeeze method
+  - `.squeeze` method normalize the any repeating letters in the string means it remove all continously removing element by one single element like `hh with h` `aaaa with a`.
+  - It also accepts a argument whcih is a string.
+  - With arugment only the letter presented in the string will be squeezed and other will remain untouched.
+  - `It also come with bang(!) variation as the method dont manipulate the original string.`
+  - Ex: `"tthhee  hectoor".squeeze(" the")` gives `the hectoor`.
