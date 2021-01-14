@@ -34,3 +34,9 @@
   - `.uniq` as its name suggests it makes all the elements of the array unique.
   - It makes every element to repeat once not more than once.
   - It also comes with the `.uniq!` bang variant to modify the orignal array.
+ 
+ ## Compact Method
+  - `compact` return the array without any nil.
+  - It means it removes every nil if present in the array.
+  - `NIL is not False` they are different.
+  - It also comes with the `.compact!` bang variant to modify the orignal array.
