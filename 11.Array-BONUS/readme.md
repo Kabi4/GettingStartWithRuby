@@ -29,3 +29,8 @@
   - They are also block methods and also must evaluate a boolean.
   - They returns the first element for which the block yields true.
   - `.find { block }` or `.detect { block }`.
+
+ ## Uniq Method
+  - `.uniq` as its name suggests it makes all the elements of the array unique.
+  - It makes every element to repeat once not more than once.
+  - It also comes with the `.uniq!` bang variant to modify the orignal array.
