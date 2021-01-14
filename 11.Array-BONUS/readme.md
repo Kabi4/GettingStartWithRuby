@@ -21,5 +21,11 @@
   - They both are predicate or boolean method.
   - `.any?` and `.all?`.
   - They are block method which accepts a block and the block must evaluate a boolean expression.
-  - `.any?` gives true if for any of the one element in array evalute true in block otherwise false.
-  - `.all?` gives true if for every element in array evalute true in block otherwise false.
+  - `.any? { block }` gives true if for any of the one element in array evalute true in block otherwise false.
+  - `.all? { block }` gives true if for every element in array evalute true in block otherwise false.
+ 
+ ## Find And Detect Method  
+  - The both are indentical method or same method.
+  - They are also block methods and also must evaluate a boolean.
+  - They returns the first element for which the block yields true.
+  - `.find { block }` or `.detect { block }`.
