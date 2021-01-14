@@ -11,3 +11,8 @@
   - If one variable is assigned to other then any operation on any of those variables will affect the other variable because they point to the same address.
   - For creating a copy of the object we use `.dup` method this method create a exact copy of the array which has own seprated address.
   - Copy array do not effect the the other array.
+
+ ## Splat Arugments
+  - It is used when the number of input or arugments are unkown.
+  - `def method(*nameOfArgument)` is syntax used for splat arguments.
+  - The splat argument is by default a Array.
