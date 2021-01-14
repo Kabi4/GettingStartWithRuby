@@ -16,3 +16,10 @@
   - It is used when the number of input or arugments are unkown.
   - `def method(*nameOfArgument)` is syntax used for splat arguments.
   - The splat argument is by default a Array.
+
+ ## Any and All method
+  - They both are predicate or boolean method.
+  - `.any?` and `.all?`.
+  - They are block method which accepts a block and the block must evaluate a boolean expression.
+  - `.any?` gives true if for any of the one element in array evalute true in block otherwise false.
+  - `.all?` gives true if for every element in array evalute true in block otherwise false.
