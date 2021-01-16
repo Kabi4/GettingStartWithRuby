@@ -84,3 +84,10 @@
   - We can remove elements of one array from another array with use of `-`.
   - When we use `arr1 - arr2` it removes all occurances of elements of arr2 from arr1.
   - `-` behing the scene calls the `.-()` method like `arr1.-(arr2)`.
+
+ ## Intersection of Arrays
+  - `&` is used to get intersection two arrays.
+  - `&` can be use in chaining one after one to intersect multiple arrays.
+  - `&` is short hand for `.&(argv)` behing the scene `&` calls the `.&()` method.
+  - This returns array of all the elements whcih are common in all arrays.
+  - When we use this method the resulting array will not contain duplicate elements.
