@@ -62,3 +62,10 @@
   - It join the elements of all the arrays passed as the arguments and array on which method is called by the shared index position and makes and array of them.
   - If the Elements are less in either of array it will zip the extra element with nil.
   - Ex: `[1,2].zip(["one", "two"],["Ek","Do"])` gives `[[1,"one","Ek"],[2,"two","Do"]]`.
+
+ ## Sample Method
+  - `.sample` method return a random value from the array.
+  - It also accepts an argument which is a Fixnum when we want more than 1 value at random.
+  - When called with arugment it returns an array of random elements from the array which are non repeating.
+  - If the argument value is larger than the length of array we gonna get the whole array shuffled Ruby will automatically cut off the larger value.
+  - Refer: `10.SampleMethod.rb`
