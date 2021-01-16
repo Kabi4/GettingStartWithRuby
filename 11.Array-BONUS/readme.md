@@ -40,3 +40,12 @@
   - It means it removes every nil if present in the array.
   - `NIL is not False` they are different.
   - It also comes with the `.compact!` bang variant to modify the orignal array.
+
+ ## Inject And Reduce Method
+  - they both are indentical methods.
+  - It reduces the whole array to one value, each block iteration passes the last value operated or the return value from the block as a block variable for the next block.
+  - Each iteration has two block varible previous,current one keeps track of last value passed by last block operation and current keep track of current element we are working with.
+  - So what does the first element block receives as the previous value,the method also accpets a argument as a starting value which act as the previous value for the first block.
+  - In the end the value last block returns is the final value the whole method returns.
+  - Syntax: `[arr].inject(startValue){ |previous,current| content }` OR `[arr].reduce(startValue){ |previous,current| content }`.
+  - Refer to: `7.injectAndReduceMethod.rb`
