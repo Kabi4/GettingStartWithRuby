@@ -49,3 +49,9 @@
   - In the end the value last block returns is the final value the whole method returns.
   - Syntax: `[arr].inject(startValue){ |previous,current| content }` OR `[arr].reduce(startValue){ |previous,current| content }`.
   - Refer to: `7.injectAndReduceMethod.rb`
+
+ ## Flatten Method
+  - `.flatten` method converts a multi-dimensional array into a one dimensional array.
+  - The method is recursive means no matter if you have array inside the the array which have more it will extract all the elements from each array and return a single dimensinal array.
+  - This method returns a brand new array.
+  - Ex: `[[1,2],[[3,4],[[5,6]]]].flatten` gives `[1,2,3,4,5,6]`.
