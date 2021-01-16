@@ -79,3 +79,8 @@
   - `|` can be use in chaining one after one to combining multiple arrays.
   - `|` is short hand for `.|(argv)` behing the scene `|` calls the `.|()` method.
   - When we use this method the resulting array will not contain duplicate elements.
+
+ ## Remove Array Items Exists In Another Array
+  - We can remove elements of one array from another array with use of `-`.
+  - When we use `arr1 - arr2` it removes all occurances of elements of arr2 from arr1.
+  - `-` behing the scene calls the `.-()` method like `arr1.-(arr2)`.
