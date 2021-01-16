@@ -55,3 +55,9 @@
   - The method is recursive means no matter if you have array inside the the array which have more it will extract all the elements from each array and return a single dimensinal array.
   - This method returns a brand new array.
   - Ex: `[[1,2],[[3,4],[[5,6]]]].flatten` gives `[1,2,3,4,5,6]`.
+
+ ## Zip Method
+  - `.zip(*argv)` take array an the argument.
+  - It join the elements of all the arrays passed as the arguments and array on which method is called by the shared index position and makes and array of them.
+  - If the Elements are less in either of array it will zip the extra element with nil.
+  - Ex: `[1,2].zip(["one", "two"],["Ek","Do"])` gives `[[1,"one","Ek"],[2,"two","Do"]]`.
