@@ -69,3 +69,7 @@
   - When called with arugment it returns an array of random elements from the array which are non repeating.
   - If the argument value is larger than the length of array we gonna get the whole array shuffled Ruby will automatically cut off the larger value.
   - Refer: `10.SampleMethod.rb`
+
+ ## Multiply A method with Atrisk
+  - When an array is multiplied by a Fixnum it replicates its elements that number of time and create a longer array.
+  - Ex: `[1,2]*5` gives `[1,2,1,2,1,2,1,2,1,2]`.
