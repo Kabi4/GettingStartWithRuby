@@ -4,3 +4,7 @@ arr2 = [2,3]
 p arr1 - arr2
 
 p arr1.-(arr2)
+
+## CHALLENGE
+
+# Create custom_remove method
