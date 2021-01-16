@@ -73,3 +73,9 @@
  ## Multiply A method with Atrisk
   - When an array is multiplied by a Fixnum it replicates its elements that number of time and create a longer array.
   - Ex: `[1,2]*5` gives `[1,2,1,2,1,2,1,2,1,2]`.
+
+ ## Union-Combing Array and Exlcuding Duplicates
+  - `|` is used to Union two arrays.
+  - `|` can be use in chaining one after one to combining multiple arrays.
+  - `|` is short hand for `.|(argv)` behing the scene `|` calls the `.|()` method.
+  - When we use this method the resulting array will not contain duplicate elements.
