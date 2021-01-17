@@ -67,3 +67,9 @@
   - `.each_key{ |key| content }` is used iterate through hash with key be the only and only block variable.
   - `.each_value{ |value| content }` iis used to iterate through hash with value to be only variable.
   - Refer: `9.Each_keyAndEach_value.rb`.
+
+ ## Retrieve Keys or Values from Hash as an Array
+  - `.keys` gives an array of all the keys in the hash.
+  - `.values` gives an array of all the values in the hash.
+  - Values method may contain duplicate values so use `.uniq` as chaining method for avoding duplicate.
+  - Refer: `10.retriveValuesFromHashAsAnArray.rb`.
