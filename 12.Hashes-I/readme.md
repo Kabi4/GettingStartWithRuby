@@ -18,4 +18,15 @@
   - Pairs are separated in hash with `,`.
   - Key are also case sensitive.
   - Values can we access with calling square method like array in hash but we have to give the extact same value for key with which we created.
-  - Refer: `2.CreatingAndAccessingHash.rb`
+  - Refer: `2.CreatingAndAccessingHash.rb`.
+
+ ## Symbol as Hash keys
+  - Symbol are also known as lightweight string.
+  - We often use symbol as a hash key because they consumes a way less memory than string.
+  - Symbol is defined as `:symbolName`.
+  - `:symnol.class` has a class `Symbol`.
+  - Symbol is lightweighted because it doesn't includes as many methods as string `87 vs 183 (Until 17-01-2021 )`.
+  - Ex: `hash = { :name => "Kushagra Singh", :age => 21}`.We can access them simply by `hash[:name]` gives `"Kushagra Singh"`.
+  - The use of symbols are so popular Ruby gives us another method of creating a symbol value pair `{symbol: value}`.
+  - Symbol should be a simple name without any quotes around it.
+  - Ex: `hash = { name : "Kushagra Singh", age : 21}`.
