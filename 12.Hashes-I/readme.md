@@ -11,4 +11,11 @@
   - Hash should be treated as unordered.Means value should be fetch by key not order.
   - Hash is created with `{}`.
   - It made with the `Hash` class.
-  - Ex: `emptyHash = {}`
+  - Ex: `emptyHash = {}`.
+
+ ## Creating And Accessing A Hash
+  - Key value pair decalre in hash with syntax as `key => value`.
+  - Pairs are separated in hash with `,`.
+  - Key are also case sensitive.
+  - Values can we access with calling square method like array in hash but we have to give the extact same value for key with which we created.
+  - Refer: `2.CreatingAndAccessingHash.rb`
