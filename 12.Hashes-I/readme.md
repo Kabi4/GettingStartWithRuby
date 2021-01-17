@@ -62,3 +62,8 @@
   - Syntax: `hash.each { |key,value| content }`.
   - `NOTE: We The Order matters or index required you should always use arrays.`
   - When we accpets one block varible like `hash.each { |pair| content }` then pair will be array of two elements that is key and value first one will be key and second will be element.
+
+ ## Each_key And Each_value Methods
+  - `.each_key{ |key| content }` is used iterate through hash with key be the only and only block variable.
+  - `.each_value{ |value| content }` iis used to iterate through hash with value to be only variable.
+  - Refer: `9.Each_keyAndEach_value.rb`.
