@@ -49,3 +49,11 @@
  ## Adding And Modifing Hash Key Values
   - We can reassign value of Hash simply by accessing with key and then just like array assign new value to it with `=` operator.
   - `.store({:newKey=>"newvalue"})` is used to add new value to the hash.
+
+ ## Length And Empty Method
+  - They work just same as they work on arrays.
+  - `.length` gives us the total number of key value pairs present in hash.
+  - `.empty?` being a boolean method return true when hash is empty.
+  - Refer: `7.LengthAndEmptyMethod.rb`.
+
+ ## 
