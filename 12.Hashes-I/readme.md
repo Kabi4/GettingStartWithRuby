@@ -38,3 +38,10 @@
   - Ex: `"age".to_sym` gives `:age`.
   - `NOTE: When we Convert a string which includes a space in it then we get symbol with double quotes around.`
   - Ex: `"scoo doo".to_sym` gives `:"scoo doo"`.It looks like string but it a symbol contains much less methods.
+
+ ## Fetch Method
+  - `.fetch(argv1,argv2(optional))`.
+  - This method is used to extract elements from hash by passing key.
+  - When used with only one arugment if there is no key for argv1 we will get an error.
+  - To overcome the error we provide a argv2 as the fallback value means gives this if key is not present in the hash.
+  - Refer: `5.FetchMethod.rb`.
