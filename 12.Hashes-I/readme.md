@@ -30,3 +30,11 @@
   - The use of symbols are so popular Ruby gives us another method of creating a symbol value pair `{symbol: value}`.
   - Symbol should be a simple name without any quotes around it.
   - Ex: `hash = { name : "Kushagra Singh", age : 21}`.
+
+ ## Symbol To String and String to Symbol
+  - We can Convert Symbol to a String just by calling `.to_s` method on it it create string of same name.
+  - Ex: `:age.to_s` gives `"age"`.
+  - To convert string to symbol we call `.to_sym` method.
+  - Ex: `"age".to_sym` gives `:age`.
+  - `NOTE: When we Convert a string which includes a space in it then we get symbol with double quotes around.`
+  - Ex: `"scoo doo".to_sym` gives `:"scoo doo"`.It looks like string but it a symbol contains much less methods.
