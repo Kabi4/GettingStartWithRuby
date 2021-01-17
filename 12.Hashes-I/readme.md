@@ -45,3 +45,7 @@
   - When used with only one arugment if there is no key for argv1 we will get an error.
   - To overcome the error we provide a argv2 as the fallback value means gives this if key is not present in the hash.
   - Refer: `5.FetchMethod.rb`.
+
+ ## Adding And Modifing Hash Key Values
+  - We can reassign value of Hash simply by accessing with key and then just like array assign new value to it with `=` operator.
+  - `.store({:newKey=>"newvalue"})` is used to add new value to the hash.
