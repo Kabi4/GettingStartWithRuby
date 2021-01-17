@@ -56,4 +56,9 @@
   - `.empty?` being a boolean method return true when hash is empty.
   - Refer: `7.LengthAndEmptyMethod.rb`.
 
- ## 
+ ## Each Method
+  - Similar to array this time it gonna iterate through each key value pair in the hash.
+  - When we iterate through array we get one block variable only hence here we iterate through a pair we get two block varible.
+  - Syntax: `hash.each { |key,value| content }`.
+  - `NOTE: We The Order matters or index required you should always use arrays.`
+  - When we accpets one block varible like `hash.each { |pair| content }` then pair will be array of two elements that is key and value first one will be key and second will be element.
