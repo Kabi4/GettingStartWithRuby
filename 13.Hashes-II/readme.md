@@ -44,3 +44,4 @@
   - `hash_1.merge(hash_2)` use to merge two hashes together.
   - If duplicate values are present in both hash Ruby will keep the value of hash_2 which is been passed through argument.
   - This not modifies the original hash so it comes with a `hash_1.merge!(hash_2)` bang variant.
+  - Refer: `8.MergeMethod.rb` `CHALLANGE ALSO PRESENT IN SAME FILE.`
