@@ -21,3 +21,8 @@
   - They return if the key or value is present in the hash or not if yes returns true else false.
   - `.key?(value)` And `.value?(value)`. where argument are value  we want to search for.
   - In old times we also have `.has_key?(value)` And `.has_value?(value)` they are indentical to above one.
+
+ ## Hash As Argument
+  - Hash as arugment is quite useful when you don't want to depend on which order the arguments are passed.
+  - Because when we dont depend on order anymore we dont have to worry about how we passing the values.
+  - Refer: `5.HashAsAnArgument.rb`.
