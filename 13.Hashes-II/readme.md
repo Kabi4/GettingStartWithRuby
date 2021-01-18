@@ -26,3 +26,9 @@
   - Hash as arugment is quite useful when you don't want to depend on which order the arguments are passed.
   - Because when we dont depend on order anymore we dont have to worry about how we passing the values.
   - Refer: `5.HashAsAnArgument.rb`.
+
+ ## Delete Method 
+  - Delete method is to Delete a pair from hash.
+  - `.delete(key)` takes an argument is the key of the pair we want to remove.
+  - Refer: `6.DeleteMethod.rb`. it mutate the original object.
+  - It also return the value of the pair it deleted.
