@@ -9,4 +9,9 @@
  ## Converting A hash to an array and vice versa
   - `.to_a` method converts a hash to an array it returns us an array of araays which contains two element first key then value.
   - `.to_h` method converts an array to a hash but predictibally array should be an array of arrays with 2 values first one will be key and second will be value.
-  - Refer: `2.HashToArrayAndViceVersa.rb`
+  - Refer: `2.HashToArrayAndViceVersa.rb`.
+
+ ## Sort and Sortby
+  - `.sort` method convert the hash to array and sort them by respect to keys and return the array.
+  - `.sortBy{ |key,value| return value }` method accpets a block which have two values as block variables one is key and second is value we return the one with repect to which we want to sort our hash.
+  - Refer: `3.SortAndSort_byMethod.rb`.
