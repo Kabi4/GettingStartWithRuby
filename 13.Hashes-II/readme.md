@@ -32,3 +32,10 @@
   - `.delete(key)` takes an argument is the key of the pair we want to remove.
   - Refer: `6.DeleteMethod.rb`. it mutate the original object.
   - It also return the value of the pair it deleted.
+
+ ## Select And Reject Methods
+  - `.select{ |key,value| content }` and `.reject{ |key,value| content }` these method work same as they works on array.
+  - The block variable have two values key,value which is the key and value of each iteration.
+  - The block should evaluate boolean to conclude with.
+  - `select` returns all the select pairs which yeild true and `reject` return are pairs which return reject.
+  - Refer: `7.SelectAndRejectMethod.rb`.
