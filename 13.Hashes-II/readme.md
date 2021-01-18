@@ -15,3 +15,9 @@
   - `.sort` method convert the hash to array and sort them by respect to keys and return the array.
   - `.sortBy{ |key,value| return value }` method accpets a block which have two values as block variables one is key and second is value we return the one with repect to which we want to sort our hash.
   - Refer: `3.SortAndSort_byMethod.rb`.
+
+ ## Key and Value Method
+  - These both are boolean methods.
+  - They return if the key or value is present in the hash or not if yes returns true else false.
+  - `.key?(value)` And `.value?(value)`. where argument are value  we want to search for.
+  - In old times we also have `.has_key?(value)` And `.has_value?(value)` they are indentical to above one.
