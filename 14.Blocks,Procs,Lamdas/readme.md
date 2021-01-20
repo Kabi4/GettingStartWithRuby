@@ -16,3 +16,12 @@
   - Block return value must not be explicit to define it should be implict and only return by Ruby itself.
   - You can call as many times you want to call the yield between the function.
   - Syntax: `def methodName { BLOCK_CONTENT }`.
+
+ ## Introduction To PROCS
+  - Procs are pre defined blocks.
+  - As we know block are no object in Ruby so they cannot be assigned to  a normal variable.
+  - Procs were basically designed to follow DRY principle when we rewrite a block for multiple array or methods we can define a proc and use it instead of repeating our self.
+  - Syntax: `procName = Proc.new { block }` or you also use do end here if you want to.
+  - When using procs we dont use it as a normal variable we write is with `&` sign.It kinda activate the proc.
+  - Syntax: `array.map(&procName)`.
+  - Refer: `3.IntrouctionToProcs.rb`.
