@@ -14,6 +14,7 @@
   - When yields is called it pause the execution of function and execute the block code.
   - Block act as the method and return the last evaluated value of the block.
   - Block return value must not be explicit to define it should be implict and only return by Ruby itself.
+  - If we not attach a block with fucntion call or block have a explicit return we will get a error.
   - You can call as many times you want to call the yield between the function.
   - Syntax: `def methodName { BLOCK_CONTENT }`.
 
@@ -25,3 +26,8 @@
   - When using procs we dont use it as a normal variable we write is with `&` sign.It kinda activate the proc.
   - Syntax: `array.map(&procName)`.
   - Refer: `3.IntrouctionToProcs.rb`.
+
+  ## Block Given Method
+   - It is used inside the function defination to check whether the block is attached or not with the method call.
+   - It is basically used to avoid the error we get when we don't provide the block in yield.
+   - Refer: `4.BlockGivenMethod.rb` this method is a Boolean method.
