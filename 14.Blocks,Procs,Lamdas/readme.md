@@ -27,7 +27,12 @@
   - Syntax: `array.map(&procName)`.
   - Refer: `3.IntrouctionToProcs.rb`.
 
-  ## Block Given Method
-   - It is used inside the function defination to check whether the block is attached or not with the method call.
-   - It is basically used to avoid the error we get when we don't provide the block in yield.
-   - Refer: `4.BlockGivenMethod.rb` this method is a Boolean method.
+ ## Block Given Method
+  - It is used inside the function defination to check whether the block is attached or not with the method call.
+  - It is basically used to avoid the error we get when we don't provide the block in yield.
+  - Refer: `4.BlockGivenMethod.rb` this method is a Boolean method.
+
+ ## Yield With Arguments
+  - Arguments in yield are passed just like we pass it in function in `()` or the other way.
+  - They accpets inside the block by block as block variables in `||`.
+  - Refer: `5.YieldWithArguments.rb`.
