@@ -40,3 +40,9 @@
  ## Custom Each Method
   - With the help of Yield keyword we can define various of custom methods we want to define with just a block.
   - We can create a custom_each method by iterating and calling yield each time we itrates.
+
+ ## Advance With procs
+  - Procs can be used in methods even without accpeting the arguments in method defination.
+  - Procs are objects where blocks are not so they are useable.
+  - Also procs can be called any time by user with method `.call` on it.
+  - Refer: `7.AdvanceWithProcs.rb`
