@@ -36,3 +36,7 @@
   - Arguments in yield are passed just like we pass it in function in `()` or the other way.
   - They accpets inside the block by block as block variables in `||`.
   - Refer: `5.YieldWithArguments.rb`.
+
+ ## Custom Each Method
+  - With the help of Yield keyword we can define various of custom methods we want to define with just a block.
+  - We can create a custom_each method by iterating and calling yield each time we itrates.
