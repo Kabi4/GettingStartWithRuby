@@ -46,3 +46,9 @@
   - Procs are objects where blocks are not so they are useable.
   - Also procs can be called any time by user with method `.call` on it.
   - Refer: `7.AdvanceWithProcs.rb`
+
+ ## Ruby Methods as a procs
+  - We can pass custom ruby method as a proc in methods like map,select,reject.
+  - It shorten our code.
+  - We do it by just passing the name of method as a argument in the method but method name should start with `&` followed by `:` so ruby can understand its a proc and not a variable.
+  - Ex: `Arr.map(&:to_i)`
