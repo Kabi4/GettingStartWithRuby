@@ -52,3 +52,8 @@
   - It shorten our code.
   - We do it by just passing the name of method as a argument in the method but method name should start with `&` followed by `:` so ruby can understand its a proc and not a variable.
   - Ex: `Arr.map(&:to_i)`
+
+ ## Method as Proc Arugments
+  - We pass proc as argument by appending it with `&`.
+  - Also we have to tell method that we waiting for a proc here same are pre-stating with `&`.
+  - Refer: `9.MethodsAsProcsParameter.rb`
