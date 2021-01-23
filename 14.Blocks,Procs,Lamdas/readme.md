@@ -57,3 +57,11 @@
   - We pass proc as argument by appending it with `&`.
   - Also we have to tell method that we waiting for a proc here same are pre-stating with `&`.
   - Refer: `9.MethodsAsProcsParameter.rb`
+
+ ## Getting Introduce to lamda
+  - Lamda are very similar to procs.Even they come with the same class `Proc`.
+  - Lamda created with syntax `Lamda { content }`.
+  - Lamda is pretty same to proc in defining calling,passing as argument,and call as individual.
+  - Whenever we accpets arguments in Proc and if we dont pass it simply the proc take it as or define it as the nil but lamda throws an error.
+  - When we define or use lamda inside the method and use a return keyword it return the value under its scope so we can store the value inside the method and move on whereas Proc never gives comand to method if the return is declared in proc it simply return the whole value as a return from method.
+  - Refer: `10.GettingIntroduceToLamda.rb`.
