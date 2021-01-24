@@ -11,3 +11,5 @@ p current_time.to_s.class
 
 p current_time.to_a
 p current_time.to_a.class
+
+p current_time.to_c
