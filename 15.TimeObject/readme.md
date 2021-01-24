@@ -27,3 +27,8 @@
   - We perform simple arthematic `+` and `-` with time object with a fixnum object which are the number of seconds we want to alter from the object.
   - Ex: `time + 60` will advance time by 1 min.
   - We use `(60*24*60)` for advancing a day.
+
+ ## Comparatable Operators in time
+  - Like Numbers and string we have multiple comparing operations like `<`,`>`,`==`,`!=`, which compare the two time stamp and return a boolen according to the comparison.
+  - `.between?(argv1,argv2)` is use to check whether a time interval falls between two given time in which argv2 must awlays be greater than argv1.
+  - Refer: `5.ComparebleOperators.rb`.
