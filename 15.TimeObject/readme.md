@@ -22,3 +22,8 @@
   - `.weekendDay?` it checks whether is the same weekend day or not weekendday is monday,tuesday,wednesday and soon.
   - `.dst` dst stand for `Daylight saving time` you can google it for more details if check whether the date is Daylight saving time or not.
   - Refer: `3.BooleanMethods.rb`.
+
+ ## Mutating Time
+  - We perform simple arthematic `+` and `-` with time object with a fixnum object which are the number of seconds we want to alter from the object.
+  - Ex: `time + 60` will advance time by 1 min.
+  - We use `(60*24*60)` for advancing a day.
