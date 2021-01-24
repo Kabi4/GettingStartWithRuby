@@ -44,3 +44,13 @@
   - We can get time in format of string in by to_s method but what if we want to get a customize string type object time string.
   - We can achieve it by `strftime`. For more details and deep documentation visit [here](https://apidock.com/ruby/DateTime/strftime).
   - Refer: `7.ConvertTimeObjectToFormattedString.rb`.
+
+ ## Parse And Strptime Method
+  - If we want to convert string to a time object we need to add a line of code in the code at top that is `require 'time'`.
+  - For using these two method we must add the above line at the top of our code.
+  - It requires and additional time feature which add more functionlaty to the Time class which are simply not present in the simple Time class.
+  - Then we use `Time.parse(String)` to convert the string to a time object if the string is in convient way it will automatically convert to time object.
+  - But if we have a customize string that is not default configuration placed by ruby then we use `.strptime(argv1,argv2)` method which is string parse time method in which the argv1 is the string from which we want to extract time and argv2 is the Strign format we learned from strftime docs.
+  - Refer: `8.ParseAndStrptime.rb`.
+
+#`NOTE I PREFER YOU TO PRACTICE STRPSTIME MORE AND MORE`
