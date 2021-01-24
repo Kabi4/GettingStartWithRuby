@@ -32,3 +32,10 @@
   - Like Numbers and string we have multiple comparing operations like `<`,`>`,`==`,`!=`, which compare the two time stamp and return a boolen according to the comparison.
   - `.between?(argv1,argv2)` is use to check whether a time interval falls between two given time in which argv2 must awlays be greater than argv1.
   - Refer: `5.ComparebleOperators.rb`.
+
+ ## Convert Time to Other Object
+  - `.wday`,`.mday`,`.yday` gives a fixnum object.
+  - `.to_s` method converts the time to a string.
+  - `.ctime` gives time in casual string way.
+  - `.to_a` converts the time to an array in a format `[sec,min,hours,date,month,year,is_a_dst,timezone]`.
+  - Refer: `6.ConvertTimeToOtherObject.rb`.
