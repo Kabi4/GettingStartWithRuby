@@ -17,3 +17,8 @@
   - Also we have `ydar` for the day in the year value between 1 to 365.
   - `.wday` gives which weekend day it is between 0 to 6 from sunday to saturday.
   - Refer: `2.MethodsInTimeObject.rb`.
+
+ ## Boolean methods
+  - `.weekendDay?` it checks whether is the same weekend day or not weekendday is monday,tuesday,wednesday and soon.
+  - `.dst` dst stand for `Daylight saving time` you can google it for more details if check whether the date is Daylight saving time or not.
+  - Refer: `3.BooleanMethods.rb`.
