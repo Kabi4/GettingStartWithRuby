@@ -39,3 +39,8 @@
   - `.ctime` gives time in casual string way.
   - `.to_a` converts the time to an array in a format `[sec,min,hours,date,month,year,is_a_dst,timezone]`.
   - Refer: `6.ConvertTimeToOtherObject.rb`.
+
+ ## Convert Time Object To Formatted String
+  - We can get time in format of string in by to_s method but what if we want to get a customize string type object time string.
+  - We can achieve it by `strftime`. For more details and deep documentation visit [here](https://apidock.com/ruby/DateTime/strftime).
+  - Refer: `7.ConvertTimeObjectToFormattedString.rb`.
