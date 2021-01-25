@@ -31,3 +31,11 @@
   - load can be used multiple times for any file.
   - We can also load file baised on if statement.
   - Refer: `5.1.LoadMethod_start.rb`.
+
+ ## Require And Require_relative Method
+  - As we see load method fetch and directly excute the code in that file but require make a feature a class or a functionlity available in a another file from a file which can be use later but not directly excute at the time of loading.
+  - Why we need require because as we code futher our code get larger and larger so its better to make chunks of file in which a one file do one work and do it well and we include it where we require it.
+  - Require will only excute once in the declared time not more than one no matter how many time we calls it for same file.
+  - Syntax: `require path_to_file`.
+  - Require Relative looks for the file in your current file directory in which the current file is so we just need to pass the name of the file not even `./` and not even the `.rb` extension.
+  - Syntax: `require_relative file_name`.
