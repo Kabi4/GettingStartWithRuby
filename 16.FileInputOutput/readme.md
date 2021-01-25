@@ -19,3 +19,8 @@
   - `File.rename(path_to_file,newname_with_extension)` is use to rename a file in ruby.
   - `File.delete(path_to_file)` is use to delete a file.
   - `BONUS:` We can avoid the file non existent error method with a boolean method that is available in File class `File.exist?(path_to_file)` which return a boolean whether a file exists or not.
+
+ ## Command line Argument
+  - We pass arguments in command line by placing them ahead of file name separated by space.
+  - Ex: `ruby ruby.rb argv1 argv2 ...`.
+  - Refer: `4.CommandLineArgument.rb`.
