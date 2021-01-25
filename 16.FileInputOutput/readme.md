@@ -24,3 +24,10 @@
   - We pass arguments in command line by placing them ahead of file name separated by space.
   - Ex: `ruby ruby.rb argv1 argv2 ...`.
   - Refer: `4.CommandLineArgument.rb`.
+
+ ## Load method
+  - Load method is use to load one ruby file into another ruby file.
+  - `load path_to_file` is use to load the file of which path is provided.
+  - load can be used multiple times for any file.
+  - We can also load file baised on if statement.
+  - Refer: `5.1.LoadMethod_start.rb`.
