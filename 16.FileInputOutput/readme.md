@@ -14,3 +14,8 @@
   - In write mode we accpets a block which have a variable file which have two methods to write something to file `.puts` and `.write` in which puts add a line break where as write doesn't.
   - Write mode always overwrite the previous file content with current block content.
   - Refer: `2.WriteToFile.rb`.
+
+ ## Rename And Delete a File
+  - `File.rename(path_to_file,newname_with_extension)` is use to rename a file in ruby.
+  - `File.delete(path_to_file)` is use to delete a file.
+  - `BONUS:` We can avoid the file non existent error method with a boolean method that is available in File class `File.exist?(path_to_file)` which return a boolean whether a file exists or not.
