@@ -19,3 +19,8 @@
   - `.` in regex will simple mean presence of any character that place like `/b.d/` will gives match for bed and bad both.
   - If our match do not exist in string we will get nil as the answer.
   - Refer: `3.IntroToRegex.rb`.
+
+ ## Intro To Scan Method
+  - `=~` return the index of first match in the string whereas `.scan(/regex/)` will give and array of all the matches for the regex.(Not index position only the matches)
+  - `/[hello]/` means that to match either of nay word in hello h,e,l,o.So we can use this syntax`[]` to allow regex to match any of these words which we provided.
+  - Refer: `4.ScanMethod-1.rb`.
