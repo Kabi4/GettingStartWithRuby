@@ -24,3 +24,8 @@
   - `=~` return the index of first match in the string whereas `.scan(/regex/)` will give and array of all the matches for the regex.(Not index position only the matches)
   - `/[hello]/` means that to match either of nay word in hello h,e,l,o.So we can use this syntax`[]` to allow regex to match any of these words which we provided.
   - Refer: `4.ScanMethod-1.rb`.
+
+ ## Scan Method Deep
+  - `/\d/` here `\d` represents a special thing that is match any digit or number telling regex that its not a d its represent to watch for presence of digit.
+  - `/\d+/` represent all the occurence of continous digits whether it is one or more.
+  - Refer: `4.ScanMethod-2.rb`.
