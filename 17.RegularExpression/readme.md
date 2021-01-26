@@ -8,3 +8,14 @@
  ## Include Method
   - `.include?(argv)` is a boolean method which tells us if the given argument is present anywhere in the given string or not.
   - Refer: `2.IncludeMethod.rb`.
+
+ ## Introduction To Regular Expression
+  - Regular expressions are itself a class in Ruby `Regexp`.
+  - They designed to match certain patterns in a string.
+  - It is created with `//`.Where condition or pattern is placed between.
+  - `=~` will return the index position of the first match.
+  - It is used as `string =~ /regex/`.
+  - Charater or word can be used smiply in regex but for few special characters you have to be careful to use.
+  - `.` in regex will simple mean presence of any character that place like `/b.d/` will gives match for bed and bad both.
+  - If our match do not exist in string we will get nil as the answer.
+  - Refer: `3.IntroToRegex.rb`.
