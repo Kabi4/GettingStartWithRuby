@@ -5,4 +5,6 @@
   - `.end_with?(argv)` is boolean method in ruby which check whether a string is ending with the given argument or not.
   - Refer: `1.startWithAndEndWithMethods.rb`.
 
- ## 
+ ## Include Method
+  - `.include?(argv)` is a boolean method which tells us if the given argument is present anywhere in the given string or not.
+  - Refer: `2.IncludeMethod.rb`.
