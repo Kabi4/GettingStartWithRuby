@@ -28,4 +28,5 @@
  ## Scan Method Deep
   - `/\d/` here `\d` represents a special thing that is match any digit or number telling regex that its not a d its represent to watch for presence of digit.
   - `/\d+/` represent all the occurence of continous digits whether it is one or more.
+  - Scan method also accepts a block in which exist after the argument in which we tell ruby to execute this block every time we found a match.
   - Refer: `4.ScanMethod-2.rb`.
