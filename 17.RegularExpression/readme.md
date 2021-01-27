@@ -52,3 +52,11 @@
  ## Excludes Character in Regex
   - `[]` is use to include multiple characters at a point where as `[^]` this with `^` at the start of inside the bracket used to exlcude the characters and accpet all charcters other than these.
   - Refer: `9.ExcludeCharacters.rb`.
+
+ ## Sub And GSubs Methods
+  - Sub and Gsub method are use to replace a character in string with another.
+  - They accpets two arguments first can be a regex or a string with which we have to match in string and second one can be of any length any string you want to place in place of the matched string.
+  - Sub method is used when we only want to replace the first match.
+  - Gsub method is used when we want to replace all the matches with the given string.
+  - They do not mutate the original string but comes with bang variant to mutate the original string.
+  - Refer: `10.SubsAndGsubsMethods.rb`.
