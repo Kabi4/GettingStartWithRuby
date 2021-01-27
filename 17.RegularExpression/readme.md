@@ -30,3 +30,9 @@
   - `/\d+/` represent all the occurence of continous digits whether it is one or more.
   - Scan method also accepts a block in which exist after the argument in which we tell ruby to execute this block every time we found a match.
   - Refer: `4.ScanMethod-2.rb`.
+
+ ## Wild Card Symbol
+  - `.` is known as wild card symbol in Ruby. When . is used between `//`  means any character in place of . is valid means other conditions are as declared and . means any thing is valid in that place whether i a char,symbol even space.
+  - Refer: `6.SymbolInRegex.rb`.
+ 
+ ## 
