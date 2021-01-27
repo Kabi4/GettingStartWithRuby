@@ -60,3 +60,8 @@
   - Gsub method is used when we want to replace all the matches with the given string.
   - They do not mutate the original string but comes with bang variant to mutate the original string.
   - Refer: `10.SubsAndGsubsMethods.rb`.
+
+ ## Rubular.com
+  - You can practice your Regex Skills at [Rubular](www.rubular.com).
+  - It provide you with regex syntax and symbols right below your online Regex IDE.
+  - Go ahead! Play with it practice more and more that's what coders do.
