@@ -35,4 +35,10 @@
   - `.` is known as wild card symbol in Ruby. When . is used between `//`  means any character in place of . is valid means other conditions are as declared and . means any thing is valid in that place whether i a char,symbol even space.
   - Refer: `6.SymbolInRegex.rb`.
  
- ## 
+ ## BackSlash Character
+  - What is want to search for . itself or a special symbol in the string when we literally want to search for a `.` in the string we use `\` before it so we can tell ruby it is no longer a special wildcard symbol now it is a simple `.`.
+  - `\d` is used to find digits.
+  - `\D` means any character except digit.
+  - `\s` means any occurence of `" "` (White Space).`\s+` gives all the conitnous occurance of white space characters can be one or more.
+  - `\S` means any occurence of non white space characters.
+  - Refer: `7.BackSlashCharacter.rb`.
