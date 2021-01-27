@@ -48,3 +48,7 @@
   - `\A` anchor is used to refer the regex must be at the start of string.Anchor Should be place at start of regex.
   - `\z` is use to end of string and must be use at the end of regex. 
   - Refer: `8.RegexAnchors.rb`.
+
+ ## Excludes Character in Regex
+  - `[]` is use to include multiple characters at a point where as `[^]` this with `^` at the start of inside the bracket used to exlcude the characters and accpet all charcters other than these.
+  - Refer: `9.ExcludeCharacters.rb`.
