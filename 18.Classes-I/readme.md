@@ -25,3 +25,8 @@
   - A class can be superclass or a subclass or both like `Interger` is a subclass of Numeric and superclass of Bignum.
   - `.ancestors` is a method will gives an array of all the subclass the class is inherited from.
   - Refer: `2.SuperClassAndAncestorMethod.rb`.
+
+ ## Methods Method
+  - All objects in ruby have `.methods` method.
+  - `.methods` gives an array of all the methods available in the object.
+  - Refer:`3.MethodsMethod.rb`.
