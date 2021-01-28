@@ -36,3 +36,10 @@
   - It start with `class` followed by the name we want for our class and close it with an end keyword.
   - Object are created with these class calling the new method on them.
   - Refer: `4.CreatingAClass.rb`.
+
+ ## Object Aliases
+  - When we create a object in Ruby it is saved in a address in a memory of Computer.
+  - The address is represented in order `<CLASS:OBJECT_ID>`.
+  - `.object_id` gives the location in hexadecimal where the memory is located.
+  - When we assign the object to another variable is points to same address simply the same object.
+  - Refer: `5.ObjectAliases.rb`.
