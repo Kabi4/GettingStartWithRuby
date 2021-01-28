@@ -8,6 +8,8 @@ windClover = Clover.new#Instatiate a object
 devilClover  = Clover.new
 fireClover = Clover.new
 
+p fireClover #gives the position of the object address of object in your computer
+
 p windClover.class  #Clover
 
 p windClover.methods #All methods of this class and its superclasses
