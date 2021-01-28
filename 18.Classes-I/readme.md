@@ -30,3 +30,9 @@
   - All objects in ruby have `.methods` method.
   - `.methods` gives an array of all the methods available in the object.
   - Refer:`3.MethodsMethod.rb`.
+
+ ## Creating a Class
+  - The class name should always be start with Captical Case.
+  - It start with `class` followed by the name we want for our class and close it with an end keyword.
+  - Object are created with these class calling the new method on them.
+  - Refer: `4.CreatingAClass.rb`.
