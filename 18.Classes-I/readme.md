@@ -13,3 +13,15 @@
  ## Revision Of Class Method on Objects
   - `.class` method is available on each and every object in ruby tell us the blueprint from where the object is instantiated with.
   - Refer: `1.IntroductionToClass.rb`.
+
+ ## Superclass And Ancestor Methods
+  - Object recives their structure and design from the class.
+  - `.class` method give us back the class from which the object is created with.
+  - Object's class itself another object.
+  - On class we have a method a `.superclass` which tell us the class from which the current class is inherited from inheritance follows an `"is-a"` structure.
+  - A class inherited from another class is known as subclass.
+  - Every class except one at top that is `BasicObject` at the top of the inheritance hierarchy has at least one superclass.
+  - Ex: `Numeric Class gives two subclass that is integer and Float futher integer give another two subclass that is bignum and fixnum.`
+  - A class can be superclass or a subclass or both like `Interger` is a subclass of Numeric and superclass of Bignum.
+  - `.ancestors` is a method will gives an array of all the subclass the class is inherited from.
+  - Refer: `2.SuperClassAndAncestorMethod.rb`.
