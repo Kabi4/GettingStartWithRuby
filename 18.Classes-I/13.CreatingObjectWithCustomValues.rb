@@ -20,3 +20,6 @@ devilClover = Clover.new(5,"Asta","Nullify")
 luckClover = Clover.new(4,"Yuno","Wind Spirit")
 
 p devilClover,luckClover
+
+p devilClover.leaves
+p luckClover.leaves
