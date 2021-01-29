@@ -70,3 +70,8 @@
   - If we define the own instance method same name as already defined method the method will be overridden by the method we declared.
   - Ex: `.to_s` method.
   - Refer: `8.Overrideto_sMethod.rb`.
+
+ ## The Self Keyword
+  - Self is a type of variable which is pre defined inside the class defination it is can be used inside the instance methods.
+  - Self always refer to its own object that is on which the instance method is called.Point should be noted to own Object not class.
+  - Refer: `9.TheSelfKeyword.rb`.
