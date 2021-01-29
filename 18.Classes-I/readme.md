@@ -75,3 +75,10 @@
   - Self is a type of variable which is pre defined inside the class defination it is can be used inside the instance methods.
   - Self always refer to its own object that is on which the instance method is called.Point should be noted to own Object not class.
   - Refer: `9.TheSelfKeyword.rb`.
+
+ ## The getter Method
+  - Due to Encapsulation the instance variables cannot be accessed by outside the class.
+  - Encapsulation suggest that the data and object state should be prevented from being modify by the outspace you specified to interact with.
+  - The methods which gets the instance variables are known as getter methods.
+  - The getter are readonly.
+  - Refer: `10.GetterMethod.rb`.
