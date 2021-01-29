@@ -21,9 +21,9 @@ p devilClover.leaves #we are accessing it thru leaves method
 
 p devilClover.owner
 
-devilClover.owner=("D3vilksk") #set owner to D3vilksk
+devilClover.owner = "D3vilksk" #set owner to D3vilksk
 p devilClover.owner
 
-devilClover.power=("Absorbtion")#set power to absorbtion
+devilClover.power = "Absorbtion"#set power to absorbtion
 
 p devilClover.power
