@@ -65,3 +65,8 @@
   - They are not defined on the class although are are defined inside the class they are defined on every object we created with that class.
   - You can check methods present in object by calling .methods on object.
   - Refer: `7.InstanceMethod.rb`.
+
+ ## Overriding Pre Defined Instance Methods
+  - If we define the own instance method same name as already defined method the method will be overridden by the method we declared.
+  - Ex: `.to_s` method.
+  - Refer: `8.Overrideto_sMethod.rb`.
