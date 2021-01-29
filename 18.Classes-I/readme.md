@@ -43,3 +43,16 @@
   - `.object_id` gives the location in hexadecimal where the memory is located.
   - When we assign the object to another variable is points to same address simply the same object.
   - Refer: `5.ObjectAliases.rb`.
+
+ ## Instance Variable And Initiliaze Method
+  - Instance Variable are variable that belong to a specific object.
+  - They define object's properties and attributes.
+  - The make up the object state.
+  - Each object have custom state.
+  - Instance Variable begin with `@symbol` Ex: `@name`.
+  - `@` is known as sigil,with it ruby will reconize it as a local variable.
+  - Initiliaze method is called are the moment we create a object with a class with keyword new.
+  - In Initiliaze method we define the object state and instance variables.
+  - If initiliaze method is not defined in  a class the object will be stateless.
+  - The instance variables can be altered with instance methods we declare in class.
+  - Refer: `6.InstanceVariableAndInitiliazeMethod.rb`.
