@@ -87,3 +87,12 @@
   - Setter method are write only methods which do not read the instance variables but modify the instance variables.
   - The setter method is defined same as regular method and also accepts a argument for new value but between methodname and arguments there is a `=` sign to tell ruby that this is a setter method.
   - Refer: `11.SetterMethods.rb`.
+
+ ## Shortcut Accessor Methods
+  - `attr` defination are used to declare getter and setter method in shortcut.
+  - `attr_reader :variable_name` is used to set a instance variable with read-only.
+  - `attr_writer :variable_name` is used to set a instance variable with write-only.
+  - `attr_accessor :variable_name` is used to set a instance variable with read-write both.
+  - These defination should be declared before the instance variables where we acctually assign the variables.
+  - We can provide multiple variables seprated by `,` like `attr_accessor :variable1,:variable2`.
+  - Refer: `12.ShortcutAccessorMethod.rb`.
