@@ -56,3 +56,12 @@
   - If initiliaze method is not defined in  a class the object will be stateless.
   - The instance variables can be altered with instance methods we declare in class.
   - Refer: `6.InstanceVariableAndInitiliazeMethod.rb`.
+
+ ## Instance Methods
+  - Instance Methods are some kind of functinally defined in Class for interacting and atler the value of the instance variables.
+  - Instance Methods never shared among object but it is copied for each object which alter its own instance variables.
+  - They are defined inside the class with any name other than initialize it can use the instance variables of class.
+  - Instance methods are public.They always need an object to be called they cannot be called on class.
+  - They are not defined on the class although are are defined inside the class they are defined on every object we created with that class.
+  - You can check methods present in object by calling .methods on object.
+  - Refer: `7.InstanceMethod.rb`.
