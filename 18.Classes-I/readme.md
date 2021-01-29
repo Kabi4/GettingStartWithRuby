@@ -96,3 +96,8 @@
   - These defination should be declared before the instance variables where we acctually assign the variables.
   - We can provide multiple variables seprated by `,` like `attr_accessor :variable1,:variable2`.
   - Refer: `12.ShortcutAccessorMethod.rb`.
+
+ ## Creating Object with parameters
+  - Parameter are passed to classes just like method wrapped in `()` seprated by `,` just after we call new method when creating a object.
+  - They are accepted in `initialize` method just like we accpet in method with paranthesis seprated by `,` with there name.
+  - Refer: `13.CreatingObjectWithCustomValues.rb`.
