@@ -22,3 +22,8 @@
   - We will import modules by using `require` and `require_relative`.
   - Once we import a module it will be instantnously loaded into our default file hence we can call the Required Module as a regular defined module.
   - Refer: `3.ModulesImporting.rb`.
+
+ ## Math Module
+  - Ruby already give us the math module inbuild in ruby.
+  - It is already imported in Ruby so we can simply call it by `Math` then the constant or method we want.
+  - Refer: `4.MathModule.rb`.`I PREFER YOU TO SEARCH FOR MATH MODULE IN RUBY`.
