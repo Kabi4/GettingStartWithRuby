@@ -78,8 +78,8 @@
 
  ## Case Methods
   - `.capitalize` it capitalize only the first character in the string and lowercase string other characters.`"heLLo".capitalize` gives `"Hello"`.
-  - `.upcase` it capitalize every character in the string.`"heLLo".capitalize` gives `"HELLO"`.
-  - `.downcase` it lowercase every character in the string.`"heLLo".capitalize` gives `"hello"`.
+  - `.upcase` it capitalize every character in the string.`"heLLo".upcase` gives `"HELLO"`.
+  - `.downcase` it lowercase every character in the string.`"heLLo".downcase` gives `"hello"`.
   - `.swapcase` it swap the case of every character in the string.`"heLLo".swapcase` gives`HEllO`.
   - They all returns new Object.
  

@@ -27,3 +27,12 @@
   - Ruby already give us the math module inbuild in ruby.
   - It is already imported in Ruby so we can simply call it by `Math` then the constant or method we want.
   - Refer: `4.MathModule.rb`.`I PREFER YOU TO SEARCH FOR MATH MODULE IN RUBY`.
+
+ ## Introduction To Mixins
+  - Mixins are the modules that are added to a class.
+  - Mixins are use to define methods and constants in class.
+  - When different classes have same functionality we use mixins to easily define these functionality everywhere.
+  - Ex: String and Numeric have same methods like ==,>=,<= and more.But they cannot be define as subclass of each other.
+  - If we write same methods same time everywhere it violates DRY principle so we use mixins and modules.
+  - We include mixins in our class just my importing them in Code and `include mixinName` inside the CLASS defination.
+  - Refer: `5.Mixins-I.rb`.
