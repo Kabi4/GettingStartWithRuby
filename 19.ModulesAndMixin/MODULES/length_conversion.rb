@@ -13,6 +13,3 @@ module LengthConversion
     end
 end
 
-p LengthConversion::DESCRIPTION
-p LengthConversion.miles_to_centimeters(200)
-p LengthConversion.miles_to_inch(200)

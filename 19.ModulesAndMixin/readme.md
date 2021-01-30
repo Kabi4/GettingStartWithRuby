@@ -16,3 +16,9 @@
  ## Modules With Identical Methods
   - Two methods of same name can exists but in different modules.
   - Refer: `2.ModulesWithIndenticalMethod.rb`.
+
+ ## Modules Importing
+  - You Should store one module per ruby file.
+  - We will import modules by using `require` and `require_relative`.
+  - Once we import a module it will be instantnously loaded into our default file hence we can call the Required Module as a regular defined module.
+  - Refer: `3.ModulesImporting.rb`.
