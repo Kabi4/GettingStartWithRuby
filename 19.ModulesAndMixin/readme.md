@@ -13,3 +13,6 @@
   - We define method in module with declaration `self.method_name`.Here in modules self represent the module it self we can also use `module_name.method_name` but if we use this approach if we change the module name we have to change everywhere so it is preferable to use `self.method_name` for it.
   - Refer: `1.IntroductionToModules.rb`.
 
+ ## Modules With Identical Methods
+  - Two methods of same name can exists but in different modules.
+  - Refer: `2.ModulesWithIndenticalMethod.rb`.
