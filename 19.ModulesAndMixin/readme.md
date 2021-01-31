@@ -36,3 +36,19 @@
   - If we write same methods same time everywhere it violates DRY principle so we use mixins and modules.
   - We include mixins in our class just my importing them in Code and `include mixinName` inside the CLASS defination.
   - Refer: `5.Mixins-I.rb`.
+
+ ## Creating Custom Mixins
+  - Creating custom mixins reduce Duplication of code.When you include two same methods and constants in two classes.
+  - Mixin inject a behaviour in a class.
+  - A class includes a module has access to its constants and method.
+  - When a module is included we never need to call its name in the class we can just simply use the Method names.
+  - Modules should not be mix with inheritance.Class inheritance is a is-a-realtionship means the sub-class is a type of class where has mixins or modules  have has-a-relaionship means a class has a module injected in it and has its methods.
+  - Order in which modules includes also matters.Ruby looks for the lastmodule included first and if modules have same method name then last modules method defination will be used.
+  - If method is not found in class,superclass and any modules Ruby will throw an error.
+  - Refer: `6.Mixins-II.rb`.
+
+ ## Ancestors method (deep)
+  - As you remembered the method `.ancestors` never called on a Object it is called on a class.
+  - This method not only gives the super class of a class but also the Modules Injected in it Like `kernal` it is not any class but a module.(Or you can say it gives order of the lookup path).
+  - When we use a constant or a method in a class Ruby search for method defination in class first and then in modules and then in super class if we overrides something in this path the first found defination will be used.
+  - Refer: `7.AncestorsMethod-Advance.rb`. 
