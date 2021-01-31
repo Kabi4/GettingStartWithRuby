@@ -56,3 +56,8 @@
  ## Prepend Keyword
   - `prepend` keyword places the module method before the instance method or you can say it kind of increase its priority.
   - Refer: `8.PrependKeyword.rb`.
+
+ ## Extend Keyword
+  - `extend` make the module methods not a method for objects created with class but to the class instance methods means they can only be called on class itself like ancestor method.
+  - It basically add the method to class methods rather than instance methods.
+  - Refer: `9.ExtendKeyword.rb`.
