@@ -52,3 +52,7 @@
   - This method not only gives the super class of a class but also the Modules Injected in it Like `kernal` it is not any class but a module.(Or you can say it gives order of the lookup path).
   - When we use a constant or a method in a class Ruby search for method defination in class first and then in modules and then in super class if we overrides something in this path the first found defination will be used.
   - Refer: `7.AncestorsMethod-Advance.rb`. 
+
+ ## Prepend Keyword
+  - `prepend` keyword places the module method before the instance method or you can say it kind of increase its priority.
+  - Refer: `8.PrependKeyword.rb`.
