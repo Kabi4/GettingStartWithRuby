@@ -61,3 +61,11 @@
   - `extend` make the module methods not a method for objects created with class but to the class instance methods means they can only be called on class itself like ancestor method.
   - It basically add the method to class methods rather than instance methods.
   - Refer: `9.ExtendKeyword.rb`.
+
+ ## Enumrable Module
+  - Enumrable is mixins that you can include in your class.
+  - It is built in modules in Ruby.
+  - It is basically have method used on array like `#min`,`#max`,`#sort` etc.
+  - When we itrates thru a data structure we always need to define a each method tell ruby where to irrtrate thru in Clas.
+  - For deep documentation on Enumrable visit [Here](https://ruby-doc.org/core-3.0.0/Enumerable.html).
+  - Refer: `10.Mixins-III.rb`.
