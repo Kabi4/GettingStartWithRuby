@@ -30,4 +30,7 @@
   - It is alsoo used when we always want to get the variable in different format but store in some other.
   - Refer: `4.InstanceVariablesVsInstanceMethods.rb`.
 
- ## 
+ ## Calling Multiple Setter Methods within one Method
+  - A instance method can have more than one task which is it will be responsible for.
+  - When using instance variables in setter methods of our own we should use `@variable approach` otherwwise ruby will just create a local variable for these.
+  - Refer: `5.CallingMultipleSetterMethodsWithinOneMethod.rb`.
