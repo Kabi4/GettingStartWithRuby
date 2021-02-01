@@ -8,3 +8,11 @@
   - Private method can only be called inside the class but not outside.
   - Private method is created with word private at the top and then everything below it will be private method.
   - Refer: `1.PrivateMethod.rb`.
+
+ ## Protected Methods
+  - Protected Methods are somewhat in between private and public method.
+  - Protected Methods can be invoke or called only by the object of same class.
+  - Protected Methods can be called within the same family of objects.
+  - Protected method is used when you want to access a method of object in other class but not outside the class.
+  - They mostly use to compare objects of same class.
+  - Refer: `2.ProtectedMethod.rb`.
