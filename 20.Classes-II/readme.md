@@ -22,3 +22,12 @@
   - `BONUS: IDEALY IT IS GOOD FOR ONE METHOD TO DO ONE WORK.`
   - Validate setter means to check whether some condition are true for new value and if true then only assign a new value.
   - Refer: `3.AddValidationToSetterMethod.rb`.
+
+ ## Instance Variables Vs Instance Methods
+  - Gernally, instance methods are prefer over instance varibles.That means when we use the varibles inside the class defination we have two ways either directly access the varibles like `@variable` or calling method with self to get the varibles `self.variable`.
+  - Thus the `self.variable` is more preferred way to do it.
+  - Even though you can also remove the `self.` prefix fromm it ruby will automatically do the work for you but wor special words we need to use self prefix for like `self.class`.
+  - It is alsoo used when we always want to get the variable in different format but store in some other.
+  - Refer: `4.InstanceVariablesVsInstanceMethods.rb`.
+
+ ## 
