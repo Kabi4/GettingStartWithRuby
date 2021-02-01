@@ -16,3 +16,9 @@
   - Protected method is used when you want to access a method of object in other class but not outside the class.
   - They mostly use to compare objects of same class.
   - Refer: `2.ProtectedMethod.rb`.
+
+ ## Add Validation To Setter Methods
+  - Some times we want validate data in our setter methods before giving the Object Instances a new value.
+  - `BONUS: IDEALY IT IS GOOD FOR ONE METHOD TO DO ONE WORK.`
+  - Validate setter means to check whether some condition are true for new value and if true then only assign a new value.
+  - Refer: `3.AddValidationToSetterMethod.rb`.
