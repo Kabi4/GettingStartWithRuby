@@ -72,3 +72,9 @@
   - Singleton class can be view by calling `.singleton_class`.
   - Singleton class is something which we never define but ruby create it for us.
   - Refer: `10.SingletonClassesAndSingletonMethods.rb`.
+
+ ## Hashes As Initiliaze Arguments
+  - We can also make initialize method accepts hash instead of regular arguments.
+  - The problem with simple argument is same as we discussed already in hashes section that if there are more arugments harder it will be to remember the order of arugments to be passed so hash has a advantage here we don't need to pass arugments in order we just need to pass a hash with all arugments must present in it.So we do not need to remember order.
+  - Means with hash it will be easier to pass arugments.
+  - Refer: `11.HashesAsInitializeArguments.rb`.
