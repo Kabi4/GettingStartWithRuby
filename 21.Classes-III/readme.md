@@ -78,3 +78,12 @@
   - The problem with simple argument is same as we discussed already in hashes section that if there are more arugments harder it will be to remember the order of arugments to be passed so hash has a advantage here we don't need to pass arugments in order we just need to pass a hash with all arugments must present in it.So we do not need to remember order.
   - Means with hash it will be easier to pass arugments.
   - Refer: `11.HashesAsInitializeArguments-I.rb`.
+
+ ## Hashes As Initiliaze Arguments-II
+  - Sometimes we may forgot to provide enough arugments or forgot to provide a hash to arugments which gives us a big error in ruby.
+  - We can also overcome this problem by using hash by using empty hash as a default object in method so if we access a argument which is not present we will get nil for that space.
+  - Hence are very useful as arguments everywhere in Ruby.
+  - It will also work if hash do not have all values to be set.
+  - But while using hashes you should be carful about type we need.Because it gonna assign value to variable either nil ot any other class it get.
+  - `For More Security we gonna use a approach of a default hash object with default value then merge it with user hash object.So we use the value if user given us that and feault otherwise.`
+  - Refer: `12.HashesAsInitializeArguments-II.rb`.
