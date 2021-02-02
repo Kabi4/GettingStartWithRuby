@@ -49,3 +49,9 @@
   - For reopening the class we simple use the name of name class like this `class Array` now whatever you define as new methods in Array will get implemented in class Array which is Ruby class itself.
   - Sometimes you need to be careful in naming your methods because if already defined method name is used it will overwrite the existing method in that class.
   - Refer: `7.MonkeyPatching-I.rb`.
+
+ ## Monkey Patching-II
+ - Monkey patching is the way how ruby developer define thier methods in ruby or introduce new methods.
+ - We can define our custom method any how we want in the Ruby classes that are already declared.
+ - `NOTE: I WANT YOU TO CREATE SOME METHOD BY YOUR OWN`.
+ - Refer: `8.MonkeyPatching-II.rb`.
