@@ -42,3 +42,10 @@
   - Syntax for declaring Struct: `Struct.new(:variable1,:variable2,.....)`.
   - Syntax for using struct: `StructName.new(value1,value2,...)` values are the value we want to assgin to our symbols.
   - Refer: `6.Structs.rb`.
+
+ ## Monkey Patching-I
+  - In ruby once we close a class defination we can later reopen it and define our own instance methods and variables.
+  - Ruby is soo friendly that it even allow us to modify its own classes.Like:`Hash Arrays String`.
+  - For reopening the class we simple use the name of name class like this `class Array` now whatever you define as new methods in Array will get implemented in class Array which is Ruby class itself.
+  - Sometimes you need to be careful in naming your methods because if already defined method name is used it will overwrite the existing method in that class.
+  - Refer: `7.MonkeyPatching-I.rb`.
