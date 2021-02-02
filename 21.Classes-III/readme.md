@@ -14,4 +14,8 @@
   - Inheritance is followed by a symbol `<` after the class name in defination follower by the `super class name`.
   - Refer: `1.RecapingInheritance.rb`.
 
- ## 
+ ## Creating Sub-Classes
+  - Syntax: `class subClassName < superClassName`.
+  - The subclass can use the methods of the superclass.
+  - If not defined the initialize method it will also inherit it from the parent class.It's kind of overriding.
+  - Refer: `2.CreatingSubClasses.rb`.
