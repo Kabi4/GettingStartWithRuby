@@ -19,3 +19,9 @@
   - The subclass can use the methods of the superclass.
   - If not defined the initialize method it will also inherit it from the parent class.It's kind of overriding.
   - Refer: `2.CreatingSubClasses.rb`.
+
+ ## Check Inheritance Heriachy 
+  - When a subclass is created and a method is called on it even the initialize method ruby will search for the method in current class then its modules if any then search for the method in superclasses of that and chain goes on. 
+  - We can check the class from which the method is inherited from its called `superclass`.
+  - Also we can check in truthy value by `p class1<class2` it checks whether the class1 is subclass of class2 or not.
+  - Refer: `3.CheckInheritanceHeriachy.rb`.
