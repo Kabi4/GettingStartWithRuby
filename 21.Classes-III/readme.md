@@ -58,3 +58,9 @@
   - When we dont have arguments we can call super keyword with paranthesis or no paranthesis.`super` & `super()`.
   - When we have arguments we call super with paranthesis `super(argv1,argv2)`.
   - Refer: `8.SuperkeyWord-II.rb`.
+
+ ## Class Variables Across Subclasses
+  - Though we cannot share or pass class methods and variables around the subclasses but we can pass them thorugh instance methods by using it in them and also calling these methods in subclasses with super keyword.
+  - Refer: `9.ClassVariablesAcrossSubclasses.rb`.
+ 
+ ## 
