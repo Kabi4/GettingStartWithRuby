@@ -44,3 +44,11 @@
   - This above method is also implemented for initialize method which is a private method.
   - Or it kinda search according to ancestors as mentioned in modules section.
   - Refer: `6.OverrideMethodsInSubclass.rb`.
+
+ ## Super Keyword-I
+  - Super keyword is use to share the functionality of the method of superclass while defining more to it on subclass.
+  - It means like overriding a method in subclass in kind of making a hybrid method.
+  - When defining or using initialize method with super the attr atribute also implement on variables.
+  - Super is used inside a method in class definatonn the super keyword search for the method on super class and call it within the subclass.
+  - If not existing method uses super it will throw an error.
+  - Refer: `7.SuperkeyWord-I.rb`.
