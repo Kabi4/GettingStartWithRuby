@@ -55,3 +55,9 @@
  - We can define our custom method any how we want in the Ruby classes that are already declared.
  - `NOTE: I WANT YOU TO CREATE SOME METHOD BY YOUR OWN`.
  - Refer: `8.MonkeyPatching-II.rb`.
+
+ ## Monkey Patching-III
+  - You can also modify your own classes.
+  - You just need to Monkey Patch after the class is defined.
+  - But we can also used after defined methods on means monkey patched methods on objects we created before the patching.
+  - Refer: `9.MonkeyPatching-III.rb`.
