@@ -61,3 +61,18 @@
   - You just need to Monkey Patch after the class is defined.
   - But we can also used after defined methods on means monkey patched methods on objects we created before the patching.
   - Refer: `9.MonkeyPatching-III.rb`.
+
+ ## Class Variables And Class Methods
+  - Until now we have just worked with instance methods and variables means these methods are only available on instances means that only on the objects created with these classes.
+  - So class variables and methods are the things we can call only on class like `ancestors` and `superclass`.
+  - Sometimes the peice of data extend beyond the scope of a single object like when we built a class of like devices for a company then we will have manufacturer and company will be always same for all the object so it do not make sense to make them instance variables.
+  - A class variable solves this issue of data duplication.
+  - A class variable belong to whole class rather than to a single object.
+  - A class variable is a data which is not limited to a single object.
+  - The class method similary is method belongs to the class not to object means method that only be called on blueprint not on the object created with the blueprint like `.new` method.
+  - Syntax for class variable: `@@variableName`.
+  - By remeber when you use the self keyword in instance methods self refer to the object itself and object do not have class variables.
+  - The class method must be prefixed with `self` keyword.
+  - If self is not used while defining a class method ruby will it as a instance method.
+  - By default class varibles are not available to public until we expose it.
+  - Refer: `10.ClassMethodsAndClassVariables.rb`.
