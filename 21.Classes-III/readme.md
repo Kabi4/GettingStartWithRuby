@@ -63,4 +63,12 @@
   - Though we cannot share or pass class methods and variables around the subclasses but we can pass them thorugh instance methods by using it in them and also calling these methods in subclasses with super keyword.
   - Refer: `9.ClassVariablesAcrossSubclasses.rb`.
  
- ## 
+ ## Singleton Classes And Singleton methods
+  - Singleton methods and classes which include or define one method in a declared object or to just single object on which we want it to be defined.
+  - Singleton methods are declared on objects.Syntax: `def objectName.methodName`.
+  - When defining singleton method Ruby behind the scene create a singleton class for us which overrides and rewrite the class only for that object but that singleton class will not be visible in ancestors method array.
+  - They can also be use to overwrite the existing instance methods just by writing their name in singleton method name.
+  - Singleton method can be veriby calling `.singleton_methods` on object.
+  - Singleton class can be view by calling `.singleton_class`.
+  - Singleton class is something which we never define but ruby create it for us.
+  - Refer: `10.SingletonClassesAndSingletonMethods.rb`.
