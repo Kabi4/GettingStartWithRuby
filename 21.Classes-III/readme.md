@@ -38,3 +38,9 @@
   - If the method name is already available from previous class it will be overridden.
   - Exclusive method are only available in the class which it is declared it and the child class of this class.
   - Refer: `5.ExclusiveMethodinClass.rb`.
+
+ ## Override Method in subclass
+  - There not lot more but as we already defined if the method name contradict when we define our own method in sub class then it will be overridde the pervious declared method in super class for this subclass only.
+  - This above method is also implemented for initialize method which is a private method.
+  - Or it kinda search according to ancestors as mentioned in modules section.
+  - Refer: `6.OverrideMethodsInSubclass.rb`.
