@@ -25,3 +25,9 @@
   - We can check the class from which the method is inherited from its called `superclass`.
   - Also we can check in truthy value by `p class1<class2` it checks whether the class1 is subclass of class2 or not.
   - Refer: `3.CheckInheritanceHeriachy.rb`.
+
+ ## .is_a? & .instance_of? Methods
+  - These both are Predicate or boolean method.
+  - `.is_a?(argv)` argv is a Class name.Which returns true if argv lies anywhere in the heirachy tree of the class.
+  - `.instance_of?(argv)` argv is Class name is gonna ask that if the Object is instance of means is Strictly made from a class argv if yes it gonna return true.
+  - Refer: `4..PredicatesMethod.rb`.
