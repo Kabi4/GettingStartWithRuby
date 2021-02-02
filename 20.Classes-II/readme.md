@@ -34,3 +34,11 @@
   - A instance method can have more than one task which is it will be responsible for.
   - When using instance variables in setter methods of our own we should use `@variable approach` otherwwise ruby will just create a local variable for these.
   - Refer: `5.CallingMultipleSetterMethodsWithinOneMethod.rb`.
+
+ ## Structs
+  - A struct represnt type of a mini class.
+  - Struct only have instance variables.
+  - Struct is defined when we dont need complex functionalty in our class just want to define a structure of variables in it.
+  - Syntax for declaring Struct: `Struct.new(:variable1,:variable2,.....)`.
+  - Syntax for using struct: `StructName.new(value1,value2,...)` values are the value we want to assgin to our symbols.
+  - Refer: `6.Structs.rb`.
