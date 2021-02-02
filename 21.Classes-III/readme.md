@@ -50,5 +50,11 @@
   - It means like overriding a method in subclass in kind of making a hybrid method.
   - When defining or using initialize method with super the attr atribute also implement on variables.
   - Super is used inside a method in class definatonn the super keyword search for the method on super class and call it within the subclass.
-  - If not existing method uses super it will throw an error.
+  - If not existing method uses super it will throw an
   - Refer: `7.SuperkeyWord-I.rb`.
+
+ ## Super Keyword-II
+  - There are basically three method to call super keyword.With paranthesis no arguments,no paranthesis and with both arguments and paranthesis.
+  - When we dont have arguments we can call super keyword with paranthesis or no paranthesis.`super` & `super()`.
+  - When we have arguments we call super with paranthesis `super(argv1,argv2)`.
+  - Refer: `8.SuperkeyWord-II.rb`.
