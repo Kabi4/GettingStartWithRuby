@@ -31,3 +31,10 @@
   - `.is_a?(argv)` argv is a Class name.Which returns true if argv lies anywhere in the heirachy tree of the class.
   - `.instance_of?(argv)` argv is Class name is gonna ask that if the Object is instance of means is Strictly made from a class argv if yes it gonna return true.
   - Refer: `4..PredicatesMethod.rb`.
+
+ ## Exclusive method In Class
+  - Exclusive method are declared simply in class as a normal method.
+  - When we define a method in subclass it will simply declared exclusive method.
+  - If the method name is already available from previous class it will be overridden.
+  - Exclusive method are only available in the class which it is declared it and the child class of this class.
+  - Refer: `5.ExclusiveMethodinClass.rb`.
