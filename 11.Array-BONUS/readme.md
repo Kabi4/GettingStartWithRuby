@@ -1,4 +1,4 @@
-# Array Bonus Methods
+# Array Bonus Methods 
 
  ## Object pointers vs Object Copies
   - All objects in RUBY lives on heap.Heap is an area of computer memory.

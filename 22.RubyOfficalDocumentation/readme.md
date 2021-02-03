@@ -14,4 +14,4 @@
  - Refer: `rdoc/album.rb`.
  - If we write comments in the ruby code those comment willl also appear in documentation.
  - Refer: `rdoc_/album.rb`.
- - If we run rdoc after changing the code it will surely overwrite the old documentation.
+ - If we run rdoc after changing the code it will surely overwrite the old documentation. 

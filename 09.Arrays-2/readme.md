@@ -1,4 +1,4 @@
-# Array Continued
+# Array Continued 
  ## Ri-Programme
   - It is an offline documentation for the Ruby.
   - It is an documentation which you can access even though you are not connected to internet so it can be quiet usefule sometimes.

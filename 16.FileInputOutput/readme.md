@@ -13,7 +13,7 @@
   - By default second argument is "r" which represents read mode.
   - In write mode we accpets a block which have a variable file which have two methods to write something to file `.puts` and `.write` in which puts add a line break where as write doesn't.
   - Write mode always overwrite the previous file content with current block content.
-  - Refer: `2.WriteToFile.rb`.
+  - Refer: `2.WriteToFile.rb`. 
 
  ## Rename And Delete a File
   - `File.rename(path_to_file,newname_with_extension)` is use to rename a file in ruby.

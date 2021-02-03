@@ -8,4 +8,4 @@
 
 # Interactive Ruby Enviroment
  - type irb anywhere in your cmd;
- `Give give you the realtime ruby playground to play with but once you exited there is no work saved.`
+ `Give give you the realtime ruby playground to play with but once you exited there is no work saved.` 

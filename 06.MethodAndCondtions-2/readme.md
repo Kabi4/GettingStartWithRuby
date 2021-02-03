@@ -1,4 +1,4 @@
-# Method And Conditions Deep Walkthrough
+# Method And Conditions Deep Walkthrough 
  ## Case Statement
   - It is also a conditional Statement.
   - An Alternative for if statement.

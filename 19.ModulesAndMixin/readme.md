@@ -47,7 +47,7 @@
   - If method is not found in class,superclass and any modules Ruby will throw an error.
   - Refer: `6.Mixins-II.rb`.
 
- ## Ancestors method (deep)
+ ## Ancestors method (deep) 
   - As you remembered the method `.ancestors` never called on a Object it is called on a class.
   - This method not only gives the super class of a class but also the Modules Injected in it Like `kernal` it is not any class but a module.(Or you can say it gives order of the lookup path).
   - When we use a constant or a method in a class Ruby search for method defination in class first and then in modules and then in super class if we overrides something in this path the first found defination will be used.

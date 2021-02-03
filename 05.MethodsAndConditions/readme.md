@@ -1,4 +1,4 @@
-# Start with Methods and Conditions
+# Start with Methods and Conditions 
  ## Kickoff and recap Methods
   - Method basically designed to reuse and follow Do Not Repeat(DRY) Concept. 
   - DRY concept should always be implemented.A developer never repeats himself.

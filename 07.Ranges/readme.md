@@ -1,4 +1,4 @@
-# Ranges
+# Ranges 
  
  ## Starting With Ranges
   - It stores a sequence of numbers and letters.

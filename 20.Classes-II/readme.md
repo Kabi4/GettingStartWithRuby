@@ -60,7 +60,7 @@
   - You can also modify your own classes.
   - You just need to Monkey Patch after the class is defined.
   - But we can also used after defined methods on means monkey patched methods on objects we created before the patching.
-  - Refer: `9.MonkeyPatching-III.rb`.
+  - Refer: `9.MonkeyPatching-III.rb`. 
 
  ## Class Variables And Class Methods
   - Until now we have just worked with instance methods and variables means these methods are only available on instances means that only on the objects created with these classes.

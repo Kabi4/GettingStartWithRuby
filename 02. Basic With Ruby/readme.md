@@ -84,4 +84,4 @@
   - `chomp` used to remove the `\n` characterat the end of every gets results.;
   - Used as `gets.chomp` this is also known as method chaining first the gets method is gonna run then on the result object the chomp method is used.;
   - gets result can be stored in the varible as for future use.;
-  - `BONUS: .to_i converts the string to integer if it can.`;
+  - `BONUS: .to_i converts the string to integer if it can.`; 

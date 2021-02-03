@@ -121,4 +121,4 @@
   - This means goto uptovalue from the integer value with each times with skip value of stepvalue.
   - This only available in Fixnums.
   - Ex: `3.step(100,7){|i| puts i}` will give `3 10 17 24 31 38 45 52 59 66 73 80 87 94`.
-  
+   

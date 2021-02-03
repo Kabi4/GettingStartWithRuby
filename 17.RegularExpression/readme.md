@@ -43,7 +43,7 @@
   - `\S` means any occurence of non white space characters.
   - Refer: `7.BackSlashCharacter.rb`.
 
- ## Regex Anchors
+ ## Regex Anchors 
   - Anchor is symbol which ties a match to a specific point like at start of string or end of string.
   - `\A` anchor is used to refer the regex must be at the start of string.Anchor Should be place at start of regex.
   - `\z` is use to end of string and must be use at the end of regex. 

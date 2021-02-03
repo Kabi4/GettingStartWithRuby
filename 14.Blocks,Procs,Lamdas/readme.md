@@ -1,4 +1,4 @@
-# Blocks,Procs,Lamda
+# Blocks,Procs,Lamda 
  ## Introduction To Block
   - Block is the collection of cdoe to be exceuted when called.
   - Block must attached to a method call.

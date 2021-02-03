@@ -109,4 +109,4 @@
  ## Empty and Nil method
   - They are boolean methods.
   - `.empty?` gives `true` whenever the string is empty otherwise `false`.It is Just an shorthand so we not need to call the length method and check with 0.Ex: `p "".empty? #true`
-  - `.nil?` gives `true` whenever the string is `nil` otherwise `false`.Even a empty string is not nil.If referr to situation when u got a nil object or you want to check whether u are getting a nil string from there.we can face error like this if we think humanly to get string index start from zero
+  - `.nil?` gives `true` whenever the string is `nil` otherwise `false`.Even a empty string is not nil.If referr to situation when u got a nil object or you want to check whether u are getting a nil string from there.we can face error like this if we think humanly to get string index start from zero.

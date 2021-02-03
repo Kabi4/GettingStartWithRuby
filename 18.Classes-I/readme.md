@@ -83,7 +83,7 @@
   - The getter are readonly.
   - Refer: `10.GetterMethod.rb`.
 
- ## The setter method
+ ## The setter method 
   - Setter method are write only methods which do not read the instance variables but modify the instance variables.
   - The setter method is defined same as regular method and also accepts a argument for new value but between methodname and arguments there is a `=` sign to tell ruby that this is a setter method.
   - Refer: `11.SetterMethods.rb`.
